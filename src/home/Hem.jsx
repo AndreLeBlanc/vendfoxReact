@@ -1,132 +1,53 @@
 import React, { Component, Fragment } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
+import Header from "../component/header/Header";
+import Footer from "../component/footer/Footer";
+
+import SliderOne from "../component/slider/SliderOne";
 import Tjanster from "../elements/tjanster/Tjanster";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
-import AboutTwo from "../component/HomeLayout/homeOne/AboutTwo";
+import About from "../component/HomeLayout/homeOne/About";
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
-import ModalVideo from "react-modal-video";
-import { videoTagString, VideoTag } from "react-video-tag";
 import Helmet from "../component/common/Helmet";
-videoTagString({
-  src: "/assets/images/service/video.mp4",
-  poster: "/assets/images/bg/bg-image-24.jpg",
-});
 
-const SlideList = [
-  {
-    textPosition: "text-left",
-    category: "",
-    title: "Welcome Video Studio",
-    description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
-    buttonText: "Contact Us",
-    buttonLink: "/contact",
-  },
-];
-
-class StudioAgency extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.openModal = this.openModal.bind(this);
-  }
-  openModal() {
-    this.setState({ isOpen: true });
-  }
+class Hem extends Component {
   render() {
     const PostList = BlogContent.slice(0, 3);
     return (
       <Fragment>
-        <Helmet pageTitle="Studio Agency" />
-        {/* Start Header Area  */}
-        <Header />
-        {/* End Header Area  */}
+        <Helmet pageTitle="Hem" />
+
+        <Header
+          headertransparent="header--transparent"
+          colorblack="color--black"
+          logoname="logo.png"
+        />
 
         {/* Start Slider Area   */}
         <div className="slider-wrapper">
-          {/* Start Single Slide */}
-          {SlideList.map((value, index) => (
-            <div
-              className="slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center"
-              key={index}
-              data-black-overlay="6"
-            >
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-lg-8">
-                    <div className={`inner ${value.textPosition}`}>
-                      {value.category ? <span>{value.category}</span> : ""}
-                      {value.title ? (
-                        <h1 className="title">{value.title}</h1>
-                      ) : (
-                        ""
-                      )}
-                      {value.description ? (
-                        <p className="description">{value.description}</p>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="video-inner">
-                      <ModalVideo
-                        channel="youtube"
-                        isOpen={this.state.isOpen}
-                        videoId="ZOoVOfieAF8"
-                        onClose={() => this.setState({ isOpen: false })}
-                      />
-                      <button
-                        className="video-popup theme-color"
-                        onClick={this.openModal}
-                      >
-                        <span className="play-icon"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="video-background">
-                <VideoTag
-                  autoPlay={`${true}`}
-                  muted={`${true}`}
-                  playsInline={`${true}`}
-                  loop={`${true}`}
-                  src={`${"/assets/images/service/video.mp4"}`}
-                  poster={`${"/assets/images/bg/bg-image-24.jpg"}`}
-                />
-              </div>
-            </div>
-          ))}
-          {/* End Single Slide */}
+          <SliderOne />
         </div>
         {/* End Slider Area   */}
 
         {/* Start About Area */}
-        <div className="about-area ptb--120">
-          <AboutTwo />
+        <div className="about-area about-position-top pb--120">
+          <About />
         </div>
         {/* End About Area */}
 
-        {/* Start Service Area  */}
         <div className="service-area ptb--80  bg_image bg_image--3">
           <div className="container">
             <Tjanster />
           </div>
         </div>
-        {/* End Service Area  */}
 
         {/* Start Portfolio Area */}
         <div className="portfolio-area ptb--120 bg_color--1">
-          <div className="portfolio-sacousel-inner mb--55 mb_sm--30">
+          <div className="portfolio-sacousel-inner mb--55">
             <Portfolio />
           </div>
         </div>
@@ -156,10 +77,10 @@ class StudioAgency extends Component {
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className="rn-blog-area pt--120 bg_color--1">
+        <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
           <div className="container">
             <div className="row align-items-end">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-left">
                   <h2>Latest News</h2>
                   <p>
@@ -176,7 +97,7 @@ class StudioAgency extends Component {
                 </div>
               </div>
             </div>
-            <div className="row mt--60 mt_sm--30">
+            <div className="row mt--60 mt_sm--40">
               {PostList.map((value, i) => (
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
@@ -209,7 +130,7 @@ class StudioAgency extends Component {
         {/* End Blog Area */}
 
         {/* Start Brand Area */}
-        <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+        <div className="rn-brand-area brand-separation bg_color--5 pb--120">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -220,10 +141,6 @@ class StudioAgency extends Component {
         </div>
         {/* End Brand Area */}
 
-        {/* Start Footer Area  */}
-        <FooterTwo />
-        {/* End Footer Area  */}
-
         {/* Start Back To Top */}
         <div className="backto-top">
           <ScrollToTop showUnder={160}>
@@ -231,8 +148,10 @@ class StudioAgency extends Component {
           </ScrollToTop>
         </div>
         {/* End Back To Top */}
+
+        <Footer />
       </Fragment>
     );
   }
 }
-export default StudioAgency;
+export default Hem;

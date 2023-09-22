@@ -41,10 +41,7 @@ class Kontakt extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Kontakta oss</h2>
-                  <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text.{" "}
-                  </p>
+                  <p>Kontakta oss gärna, vi återkommer inom kort! </p>
                 </div>
               </div>
             </div>
@@ -63,13 +60,11 @@ class Kontakt extends Component {
                     <FiHeadphones />
                   </div>
                   <div className="inner">
-                    <h4 className="title">Contact With Phone Number</h4>
+                    <h4 className="title">Ring oss</h4>
                     <p>
-                      <a href="tel:+057 254 365 456">+057 254 365 456</a>
+                      <a href="tel:+46 76 275 77 64">+46 76 275 77 64</a>
                     </p>
-                    <p>
-                      <a href="tel:+856 325 652 984">+856 325 652 984</a>
-                    </p>
+                    <p>Måndag - Fredag 09-18</p>
                   </div>
                 </div>
               </div>
@@ -82,12 +77,12 @@ class Kontakt extends Component {
                     <FiMail />
                   </div>
                   <div className="inner">
-                    <h4 className="title">Email Address</h4>
+                    <h4 className="title">Epost</h4>
                     <p>
-                      <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+                      <a href="mailto:info@vendfox.com">info@vendfox.com</a>
                     </p>
                     <p>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="mailto:andre@vendfox.com">andre@vendfox.com</a>
                     </p>
                   </div>
                 </div>
@@ -101,10 +96,9 @@ class Kontakt extends Component {
                     <FiMapPin />
                   </div>
                   <div className="inner">
-                    <h4 className="title">Location</h4>
+                    <h4 className="title">Adress</h4>
                     <p>
-                      5678 Bangla Main Road, cities 580 <br /> GBnagla, example
-                      54786
+                      Norrtäljegatan 15a, <br /> 753 27 Uppsala
                     </p>
                   </div>
                 </div>
@@ -128,11 +122,7 @@ class Kontakt extends Component {
               defaultCenter={this.props.center}
               defaultZoom={this.props.zoom}
             >
-              <AnyReactComponent
-                lat={59.955413}
-                lng={30.337844}
-                text="My Marker"
-              />
+              <AnyReactComponent lat={59.86192} lng={17.65385} text="Vendfox" />
             </GoogleMapReact>
           </div>
         </div>

@@ -37,28 +37,28 @@ class Header extends Component {
     let logoUrl;
     if (logo === "light") {
       logoUrl = (
-        <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
+        <img src="/assets/images/logo/logo-light.png" alt="Vendfox Logo" />
       );
     } else if (logo === "dark") {
       logoUrl = (
-        <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
+        <img src="/assets/images/logo/logo-dark.png" alt="Vendfox Logo" />
       );
     } else if (logo === "symbol-dark") {
       logoUrl = (
         <img
           src="/assets/images/logo/logo-symbol-dark.png"
-          alt="Digital Agency"
+          alt="Vendfox Logo"
         />
       );
     } else if (logo === "symbol-light") {
       logoUrl = (
         <img
           src="/assets/images/logo/logo-symbol-light.png"
-          alt="Digital Agency"
+          alt="Vendfox Logo"
         />
       );
     } else {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Vendfox Logo" />;
     }
 
     return (
@@ -92,23 +92,29 @@ class Header extends Component {
                 </li>
               </ul>
             </nav>
-          </div>
-          <div className="header-btn">
-            {/* Start Humberger Menu  */}
-            <div className="humberger-menu d-block d-lg-none pl--20">
-              <span
-                onClick={this.menuTrigger}
-                className="menutrigger text-white"
-              >
-                <FiMenu />
-              </span>
+            <div className="header-phone ">
+              <p>
+                telefon: 076 275 77 64 <br />
+                epost: info@vendfox.com
+              </p>
             </div>
-            {/* End Humberger Menu  */}
-            <div className="close-menu d-block d-lg-none">
-              <span onClick={this.CLoseMenuTrigger} className="closeTrigger">
-                <FiX />
-              </span>
-            </div>
+            <div className="header-btn">
+              {/* Start Humberger Menu  */}
+              <div className="humberger-menu d-block d-lg-none pl--20">
+                <span
+                  onClick={this.menuTrigger}
+                  className="menutrigger text-white"
+                >
+                  <FiMenu />
+                </span>
+              </div>
+              {/* End Humberger Menu  */}
+              <div className="close-menu d-block d-lg-none">
+                <span onClick={this.CLoseMenuTrigger} className="closeTrigger">
+                  <FiX />
+                </span>
+              </div>
+            </div>{" "}
           </div>
         </div>
       </header>

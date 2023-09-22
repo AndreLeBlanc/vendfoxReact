@@ -7,10 +7,13 @@ import {
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaTwitter />, link: "https://twitter.com/" },
+  //{ Social: <FaFacebookF />, link: "https://www.facebook.com/" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/company/vendfox/",
+  },
+  //  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
+  //  { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
 
 class Footer extends Component {
@@ -23,12 +26,13 @@ class Footer extends Component {
               <div className="col-lg-6">
                 <div className="footer-left">
                   <div className="inner">
-                    <span>Ready To Do This</span>
+                    <span>Låt oss bygga dina IT-lösningar</span>
                     <h2>
-                      Let's get <br /> to work
+                      Boka en gratis
+                      <br /> konsultation
                     </h2>
-                    <a className="rn-button-style--2" href="/contact">
-                      <span>Contact Us</span>
+                    <a className="rn-button-style--2" href="/kontakt">
+                      <span>Kontakta oss</span>
                     </a>
                   </div>
                 </div>

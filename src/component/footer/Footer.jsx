@@ -71,11 +71,13 @@ class Footer extends Component {
                         <ul className="ft-link">
                           <li>
                             <a href="mailto:info@vendfox.com">
-                              info@vendfox.com
+                              Epost: info@vendfox.com
                             </a>
                           </li>
                         </ul>
-                        <p>hejsan</p>
+                        <div className="footer-text-div">
+                          <p className="footer-text">Telefon: 076 275 77 64</p>
+                        </div>
                         <div className="social-share-inner">
                           <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                             {SocialShare.map((val, i) => (

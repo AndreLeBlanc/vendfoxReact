@@ -45,13 +45,13 @@ class Hem extends Component {
           </div>
         </div>
 
-        {/* Start Portfolio Area */}
+        {/* Start Portfolio Area 
         <div className="portfolio-area ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner mb--55">
             <Portfolio />
           </div>
         </div>
-        {/* End Portfolio Area */}
+         End Portfolio Area */}
 
         {/* Start CounterUp Area */}
         <div className="rn-counterup-area pt--25 pb--110 bg_color--1">

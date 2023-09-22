@@ -3,28 +3,28 @@ import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
 
 const ServiceList = [
   {
-    icon: <FiCast />,
-    title: "Business Stratagy",
+    icon: "01",
+    title: "Webbutveckling",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar",
   },
   {
-    icon: <FiLayers />,
-    title: "Website Development",
+    icon: "02",
+    title: "E-handel",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar",
   },
   {
-    icon: <FiUsers />,
-    title: "Marketing & Reporting",
+    icon: "03",
+    title: "Appar",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Ta ditt företag till nästa nivå med en egen app. Med cross-plattform appar kan vi använda samma kodbas på appen och hemsidan",
   },
   {
-    icon: <FiMonitor />,
-    title: "Mobile App Development",
+    icon: "04",
+    title: "Drift och underhåll",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Vi ser till att system vi utvecklar driftas, updateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida",
   },
 ];
 
@@ -32,7 +32,7 @@ class Tjanster extends Component {
   render() {
     let title = "Tjänster",
       description =
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.";
+        "Vendfox Solutions är en webbyrå som hjälper dig designa och utveckla din webbplats, app eller ditt e-handel. Vi är en heltäckande byrå med mycket bred kompetens. Genom kundnära samarbete och agila arbetssätt och fokus på er verksamhet bygger vi ditt projekt.";
     return (
       <React.Fragment>
         <div className="row">
@@ -41,8 +41,8 @@ class Tjanster extends Component {
               <h2 className="title">{title}</h2>
               <p>{description}</p>
               <div className="service-btn">
-                <a className="btn-transparent rn-btn-dark" href="/service">
-                  <span className="text">Request Custom Service</span>
+                <a className="btn-transparent rn-btn-dark" href="/tjanster">
+                  <span className="text">Läs mer</span>
                 </a>
               </div>
             </div>

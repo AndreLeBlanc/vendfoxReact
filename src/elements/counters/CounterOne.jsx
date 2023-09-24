@@ -15,17 +15,18 @@ class CounterOne extends Component {
     let Data = [
       {
         countNum: "Iterativt",
-        countTitle: "Låt.",
+        countTitle:
+          "Vi låter lösningarna växa fram stegvis med regelbunden feedback från kund.",
       },
       {
         countNum: "Fast pris",
         countTitle:
-          "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.",
+          "Vi tar inte betalt per timme utan per projekt. Ni får ett garanterat fastpris.",
       },
       {
         countNum: "Långsiktigt",
         countTitle:
-          "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.",
+          "Vi fortsätter att drifta, underhålla och vidareutveckla era system långsiktigt.",
       },
     ];
 

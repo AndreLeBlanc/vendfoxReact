@@ -17,13 +17,13 @@ const ServiceList = [
     icon: <FiCast />,
     title: "Design",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni jobbar tillsammans för att skapa en hemsida som passar er.",
+      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
   },
   {
     icon: <FiLayers />,
     title: "Webbplattformar",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Skräddarsydda lösningar och anpassningar. Vill integrera ett affärssystem eller bygga ett anpassat system för ditt företag så kan våra programmerare skapa det.",
   },
   {
     icon: <FiUsers />,
@@ -49,30 +49,6 @@ const ServiceList = [
     description:
       "Optimering av hemsidor så att den rankas högre på googles sökresultat. Genom att förbättra din hemsida driver vi trafik och affärer till din hemsida.",
   },
-];
-
-const ECom = [
-  {
-    icon: <FiCast />,
-    title: "Design",
-    description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni jobbar tillsammans för att skapa en hemsida som passar er.",
-  },
-  {
-    icon: <FiLayers />,
-    title: "Webbplattformar",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-  },
-  {
-    icon: <FiUsers />,
-    title: "Drift och underhåll",
-    description:
-      "Samarbetet fortsätter långt efter att uppdraget är klart. Drift, underhåll och support erbjuds löpande. Alla servrar och all data hanteras endast från Sverige av GDPR skäl.",
-  },
-];
-
-const Appar = [
   {
     icon: <FiCast />,
     title: "Cross-plattform appar",
@@ -80,16 +56,16 @@ const Appar = [
       "Cross-platform för mobil apputveckling betyder utveckling av applikationer som kan köras på flera mobilplattformar (iOS och Google Play) med hjälp av samma kodbas. Det snabbar på utvecklingen och sänker kostnaden.",
   },
   {
-    icon: <FiLayers />,
-    title: "Webbplattformar",
+    icon: <FiCast />,
+    title: "E-handel",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Vårt team har varit delaktiga i hundratals e-handelsprojekt. Vi kan bygga allt från enklare lösningar i woocommerce till skräddarsydda lösningar. Maximera försäljningen och minimerar arbetet med integrationer med betal och affärssystem.",
   },
   {
-    icon: <FiUsers />,
-    title: "Drift och underhåll",
+    icon: <FiCast />,
+    title: "Projektledning",
     description:
-      "Samarbetet fortsätter långt efter att uppdraget är klart. Drift, underhåll och support erbjuds löpande. Alla servrar och all data hanteras endast från Sverige av GDPR skäl.",
+      "Med vår omfattande erfarenhet av IT-projekt kan vi hjälpa er leda era IT-projekt. Vi är vana vid att både vara beställare och leverantör och kan skriva kravspecifikationer, designa system och bistå med upphandlingar.",
   },
 ];
 
@@ -109,60 +85,23 @@ class Tjanster extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Service Area */}
-        <div className="service-area ptb--120 bg_color--5">
+        <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30">
                   <h2>Webbutveckling</h2>
                   <p>
-                    Vi utvecklar allt från enklare men snygga och informativa
-                    webbplatser i Wordpress till tyngre webbtjänster och
-                    plattformar.
+                    Vendfox är en erfaren webbyrå som kan erbjuda ett brett
+                    utbud av tjänster. <br />
+                    Vi kan erbjuda helhetslösningar där vi sköter alla aspekter
+                    av er närvaro på internet.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="row service-one-wrapper">
+            <div className="row creative-service">
               {ServiceList.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a href="/service-details">
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* End Service Area */}
-
-        {/* Start Service Area */}
-        <div className="service-area ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>E-handel</h2>
-                  <p>
-                    Konsumenterna driver utvecklingen av e-handeln framåt i
-                    rasande fart. Vendfox jobbar om era befintliga
-                    e-handelslösningar eller bygger nya från grunden, hela tiden
-                    med fokus på trafik, kundupplevelse och konvertering.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row service-one-wrapper">
-              {ECom.map((val, i) => (
                 <div
                   className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
                   key={i}
@@ -181,43 +120,6 @@ class Tjanster extends Component {
             </div>
           </div>
         </div>
-        {/* End Service Area */}
-
-        {/* Start Service Area */}
-        <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--5">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>Appar</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, <br /> but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row creative-service">
-              {Appar.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a href="/service-details">
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* End Service Area */}
 
         {/* Start Back To Top */}
         <div className="backto-top">

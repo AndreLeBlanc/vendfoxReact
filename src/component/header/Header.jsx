@@ -75,7 +75,7 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
                 <li>
-                  <Link to="#">Hem</Link>
+                  <Link to="/">Hem</Link>
                 </li>
                 <li>
                   <Link to="/tjanster">Tjänster</Link>

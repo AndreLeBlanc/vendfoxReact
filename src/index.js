@@ -37,7 +37,7 @@ import ServiceDetails from "./elements/ServiceDetails";
 import OmOss from "./elements/OmOss";
 import Kontakt from "./elements/Kontakt";
 import PortfolioDetails from "./elements/PortfolioDetails";
-import Blog from "./elements/Blog";
+import Blogg from "./elements/Blogg";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 
@@ -65,6 +65,7 @@ class Root extends Component {
         <PageScrollTop>
           <Switch>
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Hem} />
+            {/*
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/Hem`}
@@ -85,7 +86,6 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/paralax`}
               component={Paralax}
             />
-
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/digital-agency`}
@@ -161,7 +161,7 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/interactive-agency`}
               component={InteractiveAgency}
             />
-
+    */}
             {/* Element Layot */}
             <Route
               exact
@@ -183,22 +183,21 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/om-oss`}
               component={OmOss}
             />
-            <Route
+            {/*       <Route
               exact
               path={`${process.env.PUBLIC_URL}/portfolio-details`}
               component={PortfolioDetails}
-            />
+  />*/}
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/blog`}
-              component={Blog}
+              path={`${process.env.PUBLIC_URL}/blogg`}
+              component={Blogg}
             />
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/blog-details`}
               component={BlogDetails}
             />
-
             {/* Blocks Elements  */}
             <Route
               exact
@@ -260,7 +259,6 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/pricing-table`}
               component={PricingTable}
             />
-
             <Route
               path={`${process.env.PUBLIC_URL}/404`}
               component={error404}

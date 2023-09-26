@@ -54,12 +54,12 @@ class Hem extends Component {
          End Portfolio Area */}
 
         {/* Start CounterUp Area */}
-        <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
+        <div className="rn-counterup-area mt--48 pt--25 pb--110 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="section-title text-center">
-                  <h3 className="fontWeight500">Our Fun Facts</h3>
+                <div className="section-title text-center mt--25 pt--25">
+                  <h3 className="fontWeight500">Så jobbar vi</h3>
                 </div>
               </div>
             </div>
@@ -82,17 +82,14 @@ class Hem extends Component {
             <div className="row align-items-end">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-left">
-                  <h2>Latest News</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
+                  <h2>Blogg</h2>
+                  <p>Senaste blogginläggen</p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
                   <a className="btn-transparent rn-btn-dark" href="/blog">
-                    <span className="text">View All News</span>
+                    <span className="text">See alla</span>
                   </a>
                 </div>
               </div>
@@ -102,10 +99,10 @@ class Hem extends Component {
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <a href={value.link}>
                         <img
                           className="w-100"
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
+                          src={`/assets/images/blog/${value.images}.jpg`}
                           alt="Blog Images"
                         />
                       </a>
@@ -113,11 +110,11 @@ class Hem extends Component {
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
+                        <a href={value.link}>{value.title}</a>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
-                          Read More
+                        <a className="rn-btn text-white" href={value.link}>
+                          Läs mer
                         </a>
                       </div>
                     </div>

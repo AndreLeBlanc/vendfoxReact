@@ -32,12 +32,9 @@ class CounterOne extends Component {
 
     return (
       <Fragment>
-        <div className="row">
+        <div className="row justify-end">
           {Data.map((value, index) => (
-            <div
-              className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12"
-              key={index}
-            >
+            <div className="counterup_style--1 col-xl-4 col-12" key={index}>
               <h5 className="counter">{value.countNum}</h5>
               <p className="description">{value.countTitle}</p>
             </div>

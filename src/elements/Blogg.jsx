@@ -20,7 +20,7 @@ class Blogg extends Component {
           logoname="logo.png"
         />
         {/* Start Breadcrump Area */}
-        <Breadcrumb title={"Blogg lista"} />
+        <Breadcrumb title={"Blogg"} />
         {/* End Breadcrump Area */}
 
         {/* Start Blog Area */}
@@ -29,7 +29,9 @@ class Blogg extends Component {
             <BlogList />
             <div className="row mt--20">
               <div className="col-lg-12">
-                {/* Start Pagination Area */}
+                {/* Start Pagination Area 
+
+                Uncomment me to make multipage
                 <Pagination />
                 {/* End Pagination Area */}
               </div>

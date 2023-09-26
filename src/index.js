@@ -39,6 +39,8 @@ import Kontakt from "./elements/Kontakt";
 import PortfolioDetails from "./elements/PortfolioDetails";
 import Blogg from "./elements/Blogg";
 import BlogDetails from "./elements/BlogDetails";
+import AnpassadeAppar from "./elements/blog/AnpassadeAppar";
+import KostnadsEffektiva from "./elements/blog/KostnadsEffektiva";
 import error404 from "./elements/error404";
 
 // Blocks Layout
@@ -198,6 +200,18 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/blog-details`}
               component={BlogDetails}
             />
+            {/***************************** BLOGGINLÄGG ******************************************/}
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/sa-gynnar-anpassade-appar-ditt-foretag`}
+              component={AnpassadeAppar}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/sa-skapar-vi-kostnadseffektiva-losningar`}
+              component={KostnadsEffektiva}
+            />
+            {/*************************************************************************************/}
             {/* Blocks Elements  */}
             <Route
               exact

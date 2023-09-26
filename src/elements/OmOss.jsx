@@ -42,7 +42,7 @@ class About extends Component {
                   <div className="thumbnail">
                     <img
                       className="w-100"
-                      src="/assets/images/about/about-3.jpg"
+                      src="/assets/images/about/aboutDog.jpg"
                       alt="Om Vendfox"
                     />
                   </div>
@@ -93,7 +93,7 @@ class About extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center">
-                  <h3 className="fontWeight500">Vi jobbar</h3>
+                  <h3 className="fontWeight500">Så jobbar vi</h3>
                 </div>
               </div>
             </div>

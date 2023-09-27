@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "./common/Breadcrumb";
-import Pagination from "./common/Pagination";
+//import Pagination from "./common/Pagination";
 import BlogList from "./blog/BlogList";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
@@ -27,7 +27,7 @@ class Blogg extends Component {
         <div className="rn-blog-area ptb--120 bg_color--1">
           <div className="container">
             <BlogList />
-            <div className="row mt--20">
+            <div className="row mt--20 ">
               <div className="col-lg-12">
                 {/* Start Pagination Area 
 
@@ -47,7 +47,6 @@ class Blogg extends Component {
           </ScrollToTop>
         </div>
         {/* End Back To Top */}
-
         <Footer />
       </React.Fragment>
     );

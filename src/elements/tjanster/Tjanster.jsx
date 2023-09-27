@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
+import {
+  AiOutlineFileSearch,
+  AiOutlineFundProjectionScreen,
+  AiOutlineLineChart,
+  AiOutlineCode,
+} from "react-icons/ai";
 
 const ServiceList = [
   {
@@ -9,7 +15,7 @@ const ServiceList = [
       "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar",
   },
   {
-    icon: "02",
+    icon: AiOutlineLineChart,
     title: "E-handel",
     description:
       "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar",

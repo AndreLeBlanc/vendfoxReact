@@ -81,7 +81,7 @@ class Hem extends Component {
             <div className="row align-items-end">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-left">
-                  <h2>pg</h2>
+                  <h2>Blogg</h2>
                   <p>Senaste blogginläggen</p>
                 </div>
               </div>

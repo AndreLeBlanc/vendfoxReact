@@ -7,62 +7,72 @@ import {
   FiUsers,
   FiMonitor,
   FiChevronUp,
+  FiFigma,
 } from "react-icons/fi";
+import { FaWordpress, FaWrench } from "react-icons/fa";
+import { TbPlug } from "react-icons/tb";
+import { PiDevicesLight } from "react-icons/pi";
+import {
+  AiOutlineFileSearch,
+  AiOutlineFundProjectionScreen,
+  AiOutlineLineChart,
+  AiOutlineCode,
+} from "react-icons/ai";
 import ScrollToTop from "react-scroll-up";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 const ServiceList = [
   {
-    icon: <FiCast />,
+    icon: <FiFigma />,
     title: "Design",
     description:
       "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
   },
   {
-    icon: <FiLayers />,
+    icon: <AiOutlineCode />,
     title: "Webbplattformar",
     description:
       "Skräddarsydda lösningar och anpassningar. Vill integrera ett affärssystem eller bygga ett anpassat system för ditt företag så kan våra programmerare skapa det.",
   },
   {
-    icon: <FiUsers />,
+    icon: <FaWrench />,
     title: "Drift och underhåll",
     description:
       "Samarbetet fortsätter långt efter att uppdraget är klart. Drift, underhåll och support erbjuds löpande. Alla servrar och all data hanteras endast från Sverige av GDPR skäl.",
   },
   {
-    icon: <FiMonitor />,
+    icon: <FaWordpress />,
     title: "Wordpress",
     description:
       "Design, Utveckling och drift av wordpress-sidor. Wordpress är en enkel lösning för att snabbt bygga hemsidor för små och medelstora företag.",
   },
   {
-    icon: <FiCast />,
+    icon: <TbPlug />,
     title: "Plugins och drift",
     description:
       "Utveckling av plugins och moduler till existerande hemsidor. Vi hjälper både företag och byråer bygga ny funktionalitet på existerande hemsidor.",
   },
   {
-    icon: <FiMonitor />,
+    icon: <AiOutlineFileSearch />,
     title: "SEO",
     description:
       "Optimering av hemsidor så att den rankas högre på googles sökresultat. Genom att förbättra din hemsida driver vi trafik och affärer till din hemsida.",
   },
   {
-    icon: <FiCast />,
+    icon: <PiDevicesLight />,
     title: "Cross-plattform appar",
     description:
       "Cross-platform för mobil apputveckling betyder utveckling av applikationer som kan köras på flera mobilplattformar (iOS och Google Play) med hjälp av samma kodbas. Det snabbar på utvecklingen och sänker kostnaden.",
   },
   {
-    icon: <FiCast />,
+    icon: <AiOutlineLineChart />,
     title: "E-handel",
     description:
       "Vårt team har varit delaktiga i hundratals e-handelsprojekt. Vi kan bygga allt från enklare lösningar i woocommerce till skräddarsydda lösningar. Maximera försäljningen och minimerar arbetet med integrationer med betal och affärssystem.",
   },
   {
-    icon: <FiCast />,
+    icon: <AiOutlineFundProjectionScreen />,
     title: "Projektledning",
     description:
       "Med vår omfattande erfarenhet av IT-projekt kan vi hjälpa er leda era IT-projekt. Vi är vana vid att både vara beställare och leverantör och kan skriva kravspecifikationer, designa system och bistå med upphandlingar.",

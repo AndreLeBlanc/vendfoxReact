@@ -9,7 +9,6 @@ import Tjanster from "../elements/tjanster/Tjanster";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 import About from "../component/HomeLayout/homeOne/About";
-import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
@@ -28,7 +27,7 @@ class Hem extends Component {
         />
 
         {/* Start Slider Area   */}
-        <div className="slider-wrapper">
+        <div className="slider-wrapper ">
           <SliderOne />
         </div>
         {/* End Slider Area   */}

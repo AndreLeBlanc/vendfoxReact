@@ -23,7 +23,7 @@
   }
   .header-phone {
     color: #c6c9d8;
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .header-wrapper {
     display: flex;
@@ -94,9 +94,6 @@
     .logo {
       a {
         img {
-          @media #{$sm-layout} {
-            width: 120px;
-          }
         }
       }
     }
@@ -307,9 +304,14 @@
   align-items: center;
   flex-wrap: wrap;
   .header-btn {
-    margin-left: 50px;
+    @media #{$md-layout} {
+      margin-left: 0px;
+    }
+    @media #{$sm-layout} {
+      margin-left: 0px;
+    }
     @media #{$large-mobile} {
-      margin-left: 0;
+      margin-left: 50;
     }
   }
 }

@@ -13,15 +13,15 @@ class SliderOne extends Component {
           <div className="container position-relative">
             <div className="row">
               <div className="col-lg-12">
-                <div className="inner">
-                  <h1 className="title theme-gradient">
+                <div className="inner d-none d-xl-block">
+                  <h1 className="title theme-gradient ">
                     Vendfox <br /> Solutions{" "}
                   </h1>
                 </div>
               </div>
             </div>
             {/* Start Service Area */}
-            <div className="service-wrapper service-white">
+            <div className="service-wrapper service-white  ">
               <ServiceOne />
             </div>
             {/* End Service Area */}

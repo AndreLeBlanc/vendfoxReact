@@ -74,11 +74,12 @@ class Header extends Component {
         className={`header-area formobile-menu header--transparent ${color}`}
       >
         <div className="header-wrapper" id="header-wrapper">
-          <div className="header-left">
+          <div className="header-left flex-1">
             <div className="logo">
               <a href="/">{logoUrl}</a>
             </div>
           </div>
+
           <div className="header-right">
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
@@ -100,12 +101,6 @@ class Header extends Component {
                 </li>
               </ul>
             </nav>
-            <div className="header-phone ">
-              <p>
-                telefon: 076 275 77 64 <br />
-                epost: info@vendfox.com
-              </p>
-            </div>
             <div className="header-btn">
               {/* Start Humberger Menu  */}
               <div className="humberger-menu d-block d-lg-none pl--20">
@@ -123,6 +118,12 @@ class Header extends Component {
                 </span>
               </div>
             </div>{" "}
+          </div>
+          <div className="header-phone d-none d-xl-block">
+            <p className="flex-1">
+              telefon: 076 275 77 64 <br />
+              epost: info@vendfox.com
+            </p>
           </div>
         </div>
       </header>

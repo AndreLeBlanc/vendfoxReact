@@ -1,33 +1,32 @@
 import React, { Component } from "react";
-import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
 import {
-  AiOutlineFileSearch,
-  AiOutlineFundProjectionScreen,
-  AiOutlineLineChart,
-  AiOutlineCode,
-} from "react-icons/ai";
+  PiDevicesThin,
+  PiBrowsersThin,
+  PiWrenchThin,
+  PiStorefrontThin,
+} from "react-icons/pi";
 
 const ServiceList = [
   {
-    icon: "01",
+    icon: <PiBrowsersThin />,
     title: "Webbutveckling",
     description:
       "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar",
   },
   {
-    icon: AiOutlineLineChart,
+    icon: <PiStorefrontThin />,
     title: "E-handel",
     description:
       "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar",
   },
   {
-    icon: "03",
+    icon: <PiDevicesThin />,
     title: "Appar",
     description:
       "Ta ditt företag till nästa nivå med en egen app. Med cross-plattform appar kan vi använda samma kodbas på appen och hemsidan",
   },
   {
-    icon: "04",
+    icon: <PiWrenchThin />,
     title: "Drift och underhåll",
     description:
       "Vi ser till att system vi utvecklar driftas, updateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida",

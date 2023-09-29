@@ -67,7 +67,7 @@ class Hem extends Component {
         </div>
         {/* End CounterUp Area */}
 
-        {/* Start Testimonial Area */}
+        {/* Start Testimonial Area 
         <div className="rn-testimonial-area bg_color--5 ptb--120">
           <div className="container">
             <Testimonial />

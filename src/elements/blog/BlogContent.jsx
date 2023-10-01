@@ -1,37 +1,22 @@
 const BlogContent = [
   {
-    images: "anpassadeApparCut",
+    images: "anpassadeApparCut.jpg",
     title: "Så gynnar anpassade appar ditt företag",
     category: "Appar",
     link: "/sa-gynnar-anpassade-appar-ditt-foretag",
   },
   {
-    images: "kostnadCut",
+    images: "kostnadCut.jpg",
     title: "Så skapar vi kostnadseffektiva IT-lösningar",
     category: "webbutveckling",
     link: "/sa-skapar-vi-kostnadseffektiva-losningar",
   },
   {
-    images: "03",
-    title: "The Home of the Future Could Bebes",
+    images: "OkaForsaljningenVendfox.webp",
+    title: "Skapa en hemsida med hog konvertering",
     category: "Design",
-    link: "/404",
+    link: "/skapa-en-hemsida-med-hog-konvertering",
   },
-  /*
-    images: "04",
-    title: " Getting tickets to the big show",
-    category: "Development",
-  },
-  {
-    images: "01",
-    title: "A big ticket gone to be an interesting ",
-    category: "Management",
-  },
-  {
-    images: "02",
-    title: "The Home of the Future Could Bebes",
-    category: "Design",
-  },*/
 ];
 
 export default BlogContent;

@@ -14,7 +14,7 @@ class BLogList extends Component {
                   <a href={value.link}>
                     <img
                       className="w-100"
-                      src={`/assets/images/blog/${value.images}.jpg`}
+                      src={`/assets/images/blog/${value.images}`}
                       alt="Blog Images"
                     />
                   </a>

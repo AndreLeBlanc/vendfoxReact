@@ -113,7 +113,7 @@ class About extends Component {
                   inom IT. Vi erbjuder bland annat hemsidor, Webbplattformar,
                   e-handelslösningar och affärssystem.
                 </p>
-                <a className="rn-btn btn-white" href="/about">
+                <a className="rn-btn btn-white" href="/tjanster">
                   Tjänster
                 </a>
               </div>
@@ -122,7 +122,7 @@ class About extends Component {
               <div className="image">
                 <img
                   src="/assets/images/about/finding-us-01.png"
-                  alt="Finding Images"
+                  alt="Vendfox tjänster"
                 />
               </div>
             </div>
@@ -194,7 +194,8 @@ class About extends Component {
                   </ul>
                 </div>
               </div>
-              {/* End Single Team  */}
+              {/* End Sin
+              gle Team  */}
             </div>
           </div>
         </div>

@@ -37,10 +37,7 @@ class Header extends Component {
     let logoUrl;
     if (logo === "light") {
       logoUrl = (
-        <img
-          src="/assets/images/logo/VENDFOXLOGOscaled.png"
-          alt="Vendfox Logo"
-        />
+        <img src="/assets/images/logo/Vendfox_logo.png" alt="Vendfox Logo" />
       );
     } else if (logo === "dark") {
       logoUrl = (
@@ -63,7 +60,7 @@ class Header extends Component {
     } else {
       logoUrl = (
         <img
-          src="/assets/images/logo/VENDFOXLOGOCOLOR.png"
+          src="/assets/images/logo/VENDFOXLOGOscaled.png"
           alt="Vendfox Logo"
         />
       );

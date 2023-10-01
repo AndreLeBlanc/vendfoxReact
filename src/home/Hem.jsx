@@ -87,7 +87,7 @@ class Hem extends Component {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                  <a className="btn-transparent rn-btn-dark" href="/blog">
+                  <a className="btn-transparent rn-btn-dark" href="/blogg">
                     <span className="text">See alla</span>
                   </a>
                 </div>
@@ -101,7 +101,7 @@ class Hem extends Component {
                       <a href={value.link}>
                         <img
                           className="w-100"
-                          src={`/assets/images/blog/${value.images}.jpg`}
+                          src={`/assets/images/blog/${value.images}`}
                           alt="Blog Images"
                         />
                       </a>

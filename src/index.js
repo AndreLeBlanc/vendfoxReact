@@ -28,18 +28,20 @@ import Hem from "./home/Hem";
 //import InteractiveAgency from "./home/InteractiveAgency";
 
 // Dark Home Layout
-import DarkMainDemo from "./dark/MainDemo";
-import DarkPortfolioLanding from "./dark/PortfolioLanding";
+//import DarkMainDemo from "./dark/MainDemo";
+//import DarkPortfolioLanding from "./dark/PortfolioLanding";
 
 // Element Layout
 import Tjanster from "./elements/Tjanster";
 import ServiceDetails from "./elements/ServiceDetails";
+import Appar from "./elements/Appar";
 import OmOss from "./elements/OmOss";
 import Kontakt from "./elements/Kontakt";
 //import PortfolioDetails from "./elements/PortfolioDetails";
 import Blogg from "./elements/Blogg";
 import BlogDetails from "./elements/BlogDetails";
 import AnpassadeAppar from "./elements/blog/AnpassadeAppar";
+import HogKonvertering from "./elements/blog/HogKonvertering";
 import KostnadsEffektiva from "./elements/blog/KostnadsEffektiva";
 import error404 from "./elements/error404";
 
@@ -177,6 +179,11 @@ class Root extends Component {
             />
             <Route
               exact
+              path={`${process.env.PUBLIC_URL}/appar`}
+              component={Appar}
+            />
+            <Route
+              exact
               path={`${process.env.PUBLIC_URL}/kontakt`}
               component={Kontakt}
             />
@@ -210,6 +217,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/sa-skapar-vi-kostnadseffektiva-losningar`}
               component={KostnadsEffektiva}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/skapa-en-hemsida-med-hog-konvertering`}
+              component={HogKonvertering}
             />
             {/*************************************************************************************/}
             {/* Blocks Elements  */}

@@ -16,6 +16,7 @@ import {
 import ScrollToTop from "react-scroll-up";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import App from "../component/common/App";
 
 const ServiceList = [
   {
@@ -90,42 +91,10 @@ class Tjanster extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Service Area */}
-        <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>Webbutveckling</h2>
-                  <p>
-                    Vendfox är en erfaren webbyrå som kan erbjuda ett brett
-                    utbud av tjänster. <br />
-                    Vi kan erbjuda helhetslösningar där vi sköter alla aspekter
-                    av er närvaro på internet.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row creative-service">
-              {ServiceList.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a className="text-center" href="/service-details">
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
+        <App
+          erbjudande="Vendfox är en erfaren webbyrå som kan erbjuda ett brett utbud av tjänster.
+Vi kan erbjuda helhetslösningar där vi sköter alla aspekter av er närvaro på internet."
+        />
         {/* Start Back To Top */}
         <div className="backto-top">
           <ScrollToTop showUnder={160}>

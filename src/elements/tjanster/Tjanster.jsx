@@ -37,7 +37,7 @@ class Tjanster extends Component {
   render() {
     let title = "Tjänster",
       description =
-        "Vendfox Solutions är en webbyrå som hjälper dig designa och utveckla din webbplats, app eller ditt e-handel. Vi är en heltäckande byrå med mycket bred kompetens. Genom kundnära samarbete och agila arbetssätt och fokus på er verksamhet bygger vi ditt projekt.";
+        "Vendfox Solutions är en webbyrå som hjälper dig designa och utveckla din webbplats, app eller e-handel. Vi är en heltäckande byrå med mycket bred kompetens. Genom kundnära samarbete och agila arbetssätt och fokus på er verksamhet bygger vi ditt projekt.";
     return (
       <React.Fragment>
         <div className="row">

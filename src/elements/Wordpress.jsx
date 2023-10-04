@@ -7,7 +7,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-class Appar extends Component {
+class Wordpress extends Component {
   constructor() {
     super();
     this.state = {
@@ -22,7 +22,7 @@ class Appar extends Component {
     return (
       <React.Fragment>
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle="Appar" />
+        <PageHelmet pageTitle="Wordpress" />
         {/* End Pagehelmet  */}
 
         <Header
@@ -40,8 +40,8 @@ class Appar extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Appar</h2>
-                  <p>Ta ditt företag till nästa nivå med en egen app</p>
+                  <h2 className="title theme-gradient">Wordpress</h2>
+                  <p>Er hemsida är ert företags främsta ansikte utåt</p>
                 </div>
               </div>
             </div>
@@ -170,4 +170,4 @@ class Appar extends Component {
     );
   }
 }
-export default Appar;
+export default Wordpress;

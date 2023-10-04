@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
   //{ Social: <FaFacebookF />, link: "https://www.facebook.com/" },
@@ -46,19 +42,19 @@ class Footer extends Component {
                         <h4>Läs mer</h4>
                         <ul className="ft-link">
                           <li>
-                            <a href="/">Hem</a>
+                            <Link to="/">Hem</Link>
                           </li>
                           <li>
-                            <a href="/tjanster">Tjänster</a>
+                            <Link to="/tjanster">Tjänster</Link>
                           </li>
                           <li>
-                            <a href="/om-oss">Om oss</a>
+                            <Link to="/om-oss">Om oss</Link>
                           </li>
                           <li>
-                            <a href="/blogg">Blogg</a>
+                            <Link to="/blogg">Blogg</Link>
                           </li>
                           <li>
-                            <a href="/kontakt">Kontakt</a>
+                            <Link to="/kontakt">Kontakt</Link>
                           </li>
                         </ul>
                       </div>

@@ -35,6 +35,7 @@ import Hem from "./home/Hem";
 import Tjanster from "./elements/Tjanster";
 import ServiceDetails from "./elements/ServiceDetails";
 import Appar from "./elements/Appar";
+import Wordpress from "./elements/Wordpress";
 import OmOss from "./elements/OmOss";
 import Kontakt from "./elements/Kontakt";
 //import PortfolioDetails from "./elements/PortfolioDetails";
@@ -177,11 +178,19 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/service-details`}
               component={ServiceDetails}
             />
+            {/* Tjänster*/}
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/appar`}
               component={Appar}
             />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/wordpress`}
+              component={Wordpress}
+            />
+            {/*Tjänster*/}
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/kontakt`}

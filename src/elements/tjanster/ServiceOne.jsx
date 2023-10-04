@@ -1,6 +1,34 @@
 import React, { Component } from "react";
+import {
+  PiDevicesThin,
+  PiWrenchThin,
+  PiBrowsersThin,
+  PiChartLineUpThin,
+  PiFigmaLogoThin,
+  PiStorefrontThin,
+  PiChalkboardTeacherThin,
+} from "react-icons/pi";
 
-const ServiceList = [];
+const ServiceList = [
+  {
+    icon: "01",
+    title: "Business Stratagy",
+    description:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+  },
+  {
+    icon: "02",
+    title: "Website Development",
+    description:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+  },
+  {
+    icon: "03",
+    title: "Marketing & Reporting",
+    description:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+  },
+];
 
 class ServiceOne extends Component {
   render() {

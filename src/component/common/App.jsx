@@ -45,7 +45,7 @@ const ServiceList = [
     title: "Plugins och drift",
     description:
       "Utveckling av plugins och moduler till existerande hemsidor. Vi hjälper både företag och byråer bygga ny funktionalitet på existerande hemsidor.",
-    link: "/",
+    link: "/Wordpress",
   },
   {
     icon: <PiChartLineUpThin />,

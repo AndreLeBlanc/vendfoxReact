@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import PageHelmet from "../../component/common/Helmet";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
-import App from "../component/common/App";
+import App from "../../component/common/App";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import Header from "../../component/header/Header";
+import Footer from "../../component/footer/Footer";
 
-class Wordpress extends Component {
+class Ecom extends Component {
   constructor() {
     super();
     this.state = {
@@ -40,8 +40,11 @@ class Wordpress extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Wordpress</h2>
-                  <p>Er hemsida är ert företags främsta ansikte utåt</p>
+                  <h2 className="title theme-gradient">E-handel</h2>
+                  <p>
+                    Vi kan e-handel och tillsammans tar vi ert företag till
+                    nästa nivå.
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,30 +73,27 @@ class Wordpress extends Component {
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h4 className="title">
-                            Webbutveckling med WordPress{" "}
+                            Öka er försäljning på nätet{" "}
                           </h4>
                           <p>
-                            <a
-                              className="service-details-contactLink"
-                              href="https://wordpress.com/sv/"
-                            >
-                              &nbsp;WordPress&nbsp;
-                            </a>
-                            är verktyget som skapat hälften av världens
-                            hemsidor. Vi som grundat Vendfox har byggt
-                            hundratals hemsidor med WordPress i över 12 år. Vi
-                            kan inte bara bygga och designa er hemsida, vi har
-                            erfarenheten och kunskapen att skapa er digitala
-                            strategi och sökmotoroptimering för att se till att
-                            er hemsida verkligen leverar.{" "}
+                            E-handeln har länge varit tillväxtmotorn när det
+                            gäller företagens försäljning. Men i takt med
+                            utvecklingen så påverkas e-handlarnas vardag. Gamla
+                            sanningar fungerar inte längre och nya lösningar och
+                            verktyg presenteras hela tiden. Man måste vara snabb
+                            på bollen och anpassa sig innan man blir omsprungen
+                            av konkurrenterna.{" "}
                           </p>
                           <p>
-                            En wordpress sida kan vara så mycket mer än en
-                            statisk hemsida. Med plugins så kan en uppsjö av
-                            olika funktioner adderas till er hemsida. Många
-                            plugins finns färdiga men vi utvecklar även egna.
-                            Det gör att vi kan göra mer med Wordpress än de
-                            flesta.{" "}
+                            Vendfox har en bred erfarenhet av e-handel. Vi har
+                            både jobbat med den tekniska sidan med att bygga
+                            välanpassade och moderna e-handelsplattformar men vi
+                            kan även rådge er när det gäller resten av
+                            e-handeln. Efter att ha jobbat med många olika
+                            kunder i flera olika länder så vet vi vad som
+                            fungerar och inte. Därför kan vi erbjuda kompletta
+                            lösningar med CRM system, affärssystem, logistik och
+                            strategier för att lyckas med er e-handel.{" "}
                           </p>
                         </div>
                       </div>
@@ -171,7 +171,7 @@ class Wordpress extends Component {
                     <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
-                    idag för gratis konsultation om WordPress{" "}
+                    idag för gratis konsultation om E-handel{" "}
                   </h4>
                 </div>
               </div>
@@ -197,4 +197,4 @@ class Wordpress extends Component {
     );
   }
 }
-export default Wordpress;
+export default Ecom;

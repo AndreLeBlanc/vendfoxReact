@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import PageHelmet from "../../component/common/Helmet";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
-import App from "../component/common/App";
+import App from "../../component/common/App";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import Header from "../../component/header/Header";
+import Footer from "../../component/footer/Footer";
 
 class Appar extends Component {
   constructor() {

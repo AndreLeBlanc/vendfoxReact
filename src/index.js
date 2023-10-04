@@ -34,8 +34,9 @@ import Hem from "./home/Hem";
 // Element Layout
 import Tjanster from "./elements/Tjanster";
 import ServiceDetails from "./elements/ServiceDetails";
-import Appar from "./elements/Appar";
-import Wordpress from "./elements/Wordpress";
+import Appar from "./elements/tjanster/Appar";
+import Wordpress from "./elements/tjanster/Wordpress";
+import Ecom from "./elements/tjanster/Ecom";
 import OmOss from "./elements/OmOss";
 import Kontakt from "./elements/Kontakt";
 //import PortfolioDetails from "./elements/PortfolioDetails";
@@ -189,6 +190,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/wordpress`}
               component={Wordpress}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/e-handel`}
+              component={Ecom}
             />
             {/*Tjänster*/}
             <Route

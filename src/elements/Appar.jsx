@@ -57,7 +57,7 @@ class Appar extends Component {
                 <div className="service-details-inner">
                   <div className="inner">
                     {/* Start Single Area */}
-                    <div className="row sercice-details-content pb--40 align-items-center">
+                    <div className="row service-details-content pb--40 align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="thumb">
                           <img
@@ -103,7 +103,7 @@ class Appar extends Component {
                     {/* End Single Area */}
 
                     {/* Start Single Area */}
-                    <div className="row sercice-details-content pb--40  align-items-center">
+                    <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h4 className="title">
@@ -141,7 +141,7 @@ class Appar extends Component {
                   </div>
                   <h4 className="title ContactText">
                     {" "}
-                    <Link className="sercice-details-contactLink" to="/Kontakt">
+                    <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
                     idag för gratis konsultation om apputveckling{" "}

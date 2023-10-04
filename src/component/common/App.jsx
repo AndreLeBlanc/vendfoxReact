@@ -38,7 +38,7 @@ const ServiceList = [
     title: "Wordpress",
     description:
       "Design, Utveckling och drift av wordpress-sidor. Wordpress är en enkel lösning för att snabbt bygga hemsidor för små och medelstora företag.",
-    link: "/",
+    link: "/Wordpress",
   },
   {
     icon: <TbPlug />,
@@ -66,7 +66,7 @@ const ServiceList = [
     title: "E-handel",
     description:
       "Vårt team har varit delaktiga i hundratals e-handelsprojekt. Vi kan bygga allt från enklare lösningar i woocommerce till skräddarsydda lösningar. Maximera försäljningen och minimerar arbetet med integrationer med betal och affärssystem.",
-    link: "/",
+    link: "/e-handel",
   },
   {
     icon: <PiChalkboardTeacherThin />,

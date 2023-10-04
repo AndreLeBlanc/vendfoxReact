@@ -19,7 +19,7 @@
       margin-bottom: 0;
     }
   }
-  .sercice-details-content {
+  .service-details-content {
     .thumb {
       .video-popup {
         position: absolute;
@@ -80,15 +80,16 @@
       }
     }
   }
+
   .ContactText {
     font-size: 36px;
     text-align: center;
   }
 
-  .sercice-details-contactLink {
+  .service-details-contactLink {
     color: $theme-color;
   }
-  .sercice-details-contactLink:hover {
+  .service-details-contactLink:hover {
     background-color: $theme-color;
     color: #ffffff;
     border-radius: 4px;

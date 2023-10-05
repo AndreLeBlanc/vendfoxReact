@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "./common/Breadcrumb";
+import WorkOrder from "../component/common/WorkOrder";
 import CounterOne from "./counters/CounterOne";
 import Testimonial from "./Testimonial";
 import BrandTwo from "./BrandTwo";
@@ -129,6 +130,10 @@ class About extends Component {
           </div>
         </div>
         {/* End Finding Us Area  */}
+
+        <div>
+          <WorkOrder />
+        </div>
 
         {/* Start Team Area  */}
         <div className="rn-team-area bg_color--1 ptb--120">

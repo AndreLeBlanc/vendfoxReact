@@ -65,7 +65,7 @@ class Ecom extends Component {
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/WordPress_blue_logo.svg"
+                            src="/assets/images/service/E-handel-med-Vendfox.jpg"
                             alt="Service Images"
                           />
                         </div>
@@ -104,33 +104,33 @@ class Ecom extends Component {
                     <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h4 className="title">Väx med Wordpress </h4>
+                          <h4 className="title">What is Lorem Ipsum?</h4>
 
                           <p>
-                            Wordpress används av många E-handlare. Med plugins
-                            som{" "}
-                            <a classN href="https://woocommerce.com/">
-                              woocommerce
-                            </a>{" "}
-                            kan en wordpress sida enkelt bli en
-                            e-handelsplattform. Er e-handelsplattform kan
-                            integreras med tjänster så som klarna, postnord
-                            eller affärssystem. Läs mer om våra tjänster inom
-                            <Link
-                              className="service-details-contactLink"
-                              to="/e-handel"
-                            >
-                              &nbsp;e-handel.
-                            </Link>{" "}
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum."
                           </p>
                           <p>
                             {" "}
-                            Vi driftar och underhåller er wordpress-sida. Till
-                            en fast kostnad ser vi till att er hemsida fungerar.
-                            Ni är experter på er verksamhet och ska inte behöva
-                            tänka på er hemsidas drift. Med våra driftslösningar
-                            kommer er hemsida hållas uppdaterad och säker till
-                            ett fast pris.
+                            "Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem.{" "}
                           </p>
                         </div>
                       </div>
@@ -138,7 +138,7 @@ class Ecom extends Component {
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src="/assets/images/techs/WooCommerce_vendfox.svg"
+                            src="/assets/images/service/E-handel-med-Vendfox-sida.jpg"
                             alt="Apputveckling med Vendfox"
                           />
                         </div>
@@ -149,21 +149,26 @@ class Ecom extends Component {
                   <div className="row service-details-content">
                     <div className="details">
                       <h4 className="title ContactText">
-                        Några fördelar med WordPress:
+                        Därför bör ni satsa på e-handel:
                       </h4>
                       <ul className="liststyle">
-                        <li>Stor frihet att designa hemsidan som du vill.</li>
-                        <li>Lätt att underhålla.</li>
                         <li>
-                          WordPress har en enkel och intuitiv
-                          administrationspanel.
+                          Er webbutik kan sälja nästan allt. Även tjänster och
+                          digitala produkter kan säljas online.
                         </li>
-                        <li>Plattformen utvecklas kontinuerligt.</li>
+                        <li>En webbutik är lätt att underhålla.</li>
                         <li>
-                          Bygger på öppen källkod och används kostnadsfritt.
+                          Ni kan nå kunder i hela Sverige och även andra länder.
                         </li>
-                        <li>WordPress är bra för sökmotoroptimering.</li>
-                        <li>Som kund är du inte bunden till en leverantör.</li>
+                        <li>En webbutik är billigare än en fysisk butik.</li>
+                        <li>
+                          Ni kan driva er webbutik utan att tvingas vara på
+                          plats eller jobba vissa tider.{" "}
+                        </li>
+                        <li>
+                          E-handel passar både småbolag och jättar, er
+                          e-handelslösning skalar med er.
+                        </li>
                       </ul>{" "}
                     </div>
                   </div>

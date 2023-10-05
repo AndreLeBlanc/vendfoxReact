@@ -115,7 +115,7 @@ class Kontakt extends Component {
         </div>
         {/* End Contact Page Area  */}
 
-        {/* Start Contact Map  */}
+        {/* Start Contact Map  
         <div className="rn-contact-map-area position-relative">
           <div style={{ height: "650px", width: "100%" }}>
             <GoogleMapReact

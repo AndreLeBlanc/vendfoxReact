@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
-import App from "../../component/common/App";
+import TjansteLista from "../../component/common/TjansteLista";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
@@ -42,8 +42,8 @@ class Ecom extends Component {
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">E-handel</h2>
                   <p>
-                    Vi kan e-handel och tillsammans tar vi ert företag till
-                    nästa nivå.
+                    Vi kan e-handel och tillsammans skapar vi motorn i er
+                    försäljning.
                   </p>
                 </div>
               </div>
@@ -186,7 +186,7 @@ class Ecom extends Component {
         {/* End Page Wrapper */}
 
         <div>
-          <App title="Fler tjänster" />
+          <TjansteLista title="Fler tjänster" />
         </div>
 
         {/* Start Back To Top */}

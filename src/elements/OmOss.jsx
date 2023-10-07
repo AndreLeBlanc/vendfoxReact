@@ -131,17 +131,17 @@ class About extends Component {
         </div>
         {/* End Finding Us Area  */}
 
-        <div>
+        <div className="mt--60">
           <WorkOrder />
         </div>
 
         {/* Start Team Area  */}
-        <div className="rn-team-area bg_color--1 ptb--120">
+        <div className="rn-team-area bg_color--1 ptb--80">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="section-title service-style--2 text-center mb--25">
-                  <h2 className="title">Våra grundare</h2>
+                <div className=" service-style--2 text-center mb--25">
+                  <h2 className="section-title">Våra grundare</h2>
                 </div>
               </div>
             </div>

@@ -3,27 +3,39 @@ import React, { Component, Fragment } from "react";
 const WorkList = [
   {
     icon: "1",
-    title: "Analys",
+    title: "Konsultation",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
+      "Vi hjälper dig att få en tydlig överblick över vad vi kan göra för ditt företags system. Tillsamans spånar vi idéer och pratar om målbilden och hur vi kan ta oss dit.",
   },
   {
-    icon: "1",
+    icon: "2",
     title: "Analys",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
+      "Våra erfarna utvecklare analyserar ert företag och era behov och presenterar lösningar anpassade för just ert företag. Det är en rolig och spännande fas där vi bollar idéer.",
   },
   {
-    icon: "1",
-    title: "Analys",
+    icon: "3",
+    title: "Design",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
+      "Det är viktigt att du får se vad du får innan du slår till. Därför brukar vi göra designen först. Våra designers designar er lösning med er och när arbetet är klart får ni se hur resultatet kommer bli.",
   },
   {
-    icon: "1",
-    title: "Analys",
+    icon: "4",
+    title: "Utveckling",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
+      "När designen är klar börjar vi med utvecklingen. Projektledning är alltid i Sverige medan delar av utvecklingen sker i Indien. Vi tror på att jobba nära kunderna och låta projektet växa fram stegvis.",
+  },
+  {
+    icon: "5",
+    title: "Utveckling",
+    description:
+      "När designen är klar börjar vi med utvecklingen. Projektledning är alltid i Sverige medan delar av utvecklingen sker i Indien. Vi tror på att jobba nära kunderna och låta projektet växa fram stegvis.",
+  },
+  {
+    icon: "6",
+    title: "Drift",
+    description:
+      "Vi hjälper givetvis till att drifta och vidareutveckla det vi har byggt. Med ett underhållsavtal från oss så kommer alla servrar och all data endast finnas i Sverige och hanteras härifrån av GDPR skäl.",
   },
 ];
 
@@ -36,29 +48,25 @@ class WorkOrder extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30">
-                  <h2>Vår process</h2>
+                  <h2>Så går det till</h2>
                 </div>
               </div>
             </div>
             <div className="row creative-service">
-              <div
-                className="col-lg-8
-               col-12 mt_md--50"
-              >
-                <div className="row service-one-wrapper">
-                  {WorkList.map((val, i) => (
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                      <div className="service service__style--2">
-                        <div className="icon">{val.icon}</div>
-                        <div className="content">
-                          <h3 className="title">{val.title}</h3>
-                          <p>{val.description}</p>
-                        </div>
-                      </div>
+              {WorkList.map((val, i) => (
+                <div
+                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-2"
+                  key={i}
+                >
+                  <div className="service service__style--3">
+                    <div className="iconShort">{val.icon}</div>
+                    <div className="content">
+                      <h3 className="title">{val.title}</h3>
+                      <p>{val.description}</p>
                     </div>
-                  ))}
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

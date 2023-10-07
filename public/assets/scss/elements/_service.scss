@@ -236,6 +236,20 @@
         stroke-width: 1 !important;
       }
     }
+    .iconShort {
+      line-height: 80px;
+      font-size: 80px;
+      font-weight: 400;
+      display: inline-flex;
+      color: $theme-color;
+      @extend %transition;
+      @media #{$large-mobile} {
+        color: #ffffff;
+      }
+      svg {
+        stroke-width: 1 !important;
+      }
+    }
     .content {
       h3 {
         &.title {
@@ -278,7 +292,8 @@
         opacity: 1;
         visibility: visible;
       }
-      .icon {
+      .icon,
+      .iconShort {
         color: #ffffff;
       }
       .content {

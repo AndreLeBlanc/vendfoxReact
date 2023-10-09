@@ -152,7 +152,7 @@ class About extends Component {
                   <div className="thumbnail">
                     <img
                       className="w-100"
-                      src="/assets/images/team/AndreFigResized.JPG"
+                      src="/assets/images/team/AndreFigResized.jpg"
                       alt="André tech lead Vendfox"
                     />
                   </div>

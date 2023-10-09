@@ -33,7 +33,7 @@ class Hem extends Component {
         {/* End Slider Area   */}
 
         {/* Start About Area */}
-        <div className="about-area about-position-top pb--120">
+        <div className="about-area about-position-top mt--40 pb--120">
           <About />
         </div>
         {/* End About Area */}

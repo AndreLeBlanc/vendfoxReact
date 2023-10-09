@@ -2,9 +2,6 @@ import React, { Component } from "react";
 
 class OmOss extends Component {
   render() {
-    let title = "About",
-      description =
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,";
     return (
       <React.Fragment>
         <div className="about-wrapper">
@@ -23,25 +20,43 @@ class OmOss extends Component {
               <div className="col-lg-7 col-md-12">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">{title}</h2>
-                    <p className="description">{description}</p>
+                    <h2 className="title">
+                      {" "}
+                      Vi skapar era <br />
+                      IT-lösningar
+                    </h2>
+                    <p className="description">
+                      Välkommen till Vendfox, en webbyrå som jobbar lite
+                      annorlunda, lite bredare och innovativare med
+                      webbutveckling, e-handel och appar. Vi hjälper dig hela
+                      vägen med att skapa IT-lösningarna som driver ditt företag
+                      framåt. <br />
+                      Med en bred erfarenhet inom IT kan vi designa, utveckla
+                      och drifta era webbplattformar. Med vendfox tar vi
+                      helhetsansvaret och låter dig fokusera på din verksamhet.
+                      IT-sidan ska bara fungera.{" "}
+                    </p>
                   </div>
                   <div className="row mt--30 mt_sm--10">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
+                        <h3 className="title">Vi kan</h3>
                         <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
+                          Bygga något nytt, en enskild webbplats, e-handel eller
+                          ett helt ny IT-system. Ta era existerande system till
+                          nästa nivå. Få er att växa, förbättra eller förändra
+                          er verksamhet med bättre verktyg och system.{" "}
                         </p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
+                        <h3 className="title">Om oss</h3>
                         <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
+                          Vendfox är baserat i Uppsala, Stockholm och Tranås med
+                          kunder runt om i landet. Tack vare vårt kontaktnät i
+                          Indien kan vi ta in väl valda utvecklare som blir en
+                          del av vårt team.{" "}
                         </p>
                       </div>
                     </div>

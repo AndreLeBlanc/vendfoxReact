@@ -72,10 +72,13 @@ class Footer extends Component {
                           </li>
                         </ul>
                         <div className="footer-text-div">
-                          <p className="footer-text">Telefon: 076 275 77 64</p>
+                          <p className="footer-text">
+                            Telefon: 076 275 77 64 <br />
+                            Vi finns i Uppsala, Stockholm och Tranås
+                          </p>
                         </div>
                         <div className="social-share-inner">
-                          <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
+                          <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--80">
                             {SocialShare.map((val, i) => (
                               <li key={i}>
                                 <a href={`${val.link}`}>{val.Social}</a>

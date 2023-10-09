@@ -20,7 +20,7 @@ class About extends Component {
       kontaktnät i Indien kan vi rekrytera väl valda utvecklare på ett sätt som endast
       stora konsultbolag brukar kunna. Vi jobbar i blandade team med delar utvecklingen 
       i Sverige och delar i Indien. Målet har varit att erbjuda tjänster som oftast endast
-      stora konsultbolag erbjuder i ett mindre format och med en bråkdel av deras omkostnader.`;
+      stora konsultbolag erbjuder i ett mindre format och med en bråkdel av deras omkostnader med en större omtanke för små och medelstora kunder.`;
     return (
       <React.Fragment>
         <PageHelmet pageTitle="Om oss" />
@@ -206,7 +206,7 @@ class About extends Component {
         </div>
         {/* End Team Area  */}
 
-        {/* Start Testimonial Area */}
+        {/* Start Testimonial Area 
         <div className="rn-testimonial-area bg_color--5 ptb--120">
           <div className="container">
             <Testimonial />

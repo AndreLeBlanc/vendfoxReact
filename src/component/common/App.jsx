@@ -17,7 +17,7 @@ const ServiceList = [
     title: "Design",
     description:
       "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
-    link: "/",
+    link: "/Design",
   },
   {
     icon: <PiBrowsersThin />,
@@ -42,7 +42,7 @@ const ServiceList = [
   },
   {
     icon: <TbPlug />,
-    title: "Plugins och drift",
+    title: "Plugins",
     description:
       "Utveckling av plugins och moduler till existerande hemsidor. Vi hjälper både företag och byråer bygga ny funktionalitet på existerande hemsidor.",
     link: "/Wordpress",
@@ -73,7 +73,7 @@ const ServiceList = [
     title: "Projektledning",
     description:
       "Med vår omfattande erfarenhet av IT-projekt kan vi hjälpa er leda era IT-projekt. Vi är vana vid att både vara beställare och leverantör och kan skriva kravspecifikationer, designa system och bistå med upphandlingar.",
-    link: "/",
+    link: "/projektledning",
   },
 ];
 class App extends Component {

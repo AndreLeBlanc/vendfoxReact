@@ -32,35 +32,37 @@ import Hem from "./home/Hem";
 //import DarkPortfolioLanding from "./dark/PortfolioLanding";
 
 // Element Layout
-import Tjanster from "./elements/Tjanster";
-import ServiceDetails from "./elements/ServiceDetails";
+import AnpassadeAppar from "./elements/blog/AnpassadeAppar";
 import Appar from "./elements/tjanster/Appar";
-import Wordpress from "./elements/tjanster/Wordpress";
-import Ecom from "./elements/tjanster/Ecom";
-import OmOss from "./elements/OmOss";
-import Kontakt from "./elements/Kontakt";
-//import PortfolioDetails from "./elements/PortfolioDetails";
 import Blogg from "./elements/Blogg";
 import BlogDetails from "./elements/BlogDetails";
-import AnpassadeAppar from "./elements/blog/AnpassadeAppar";
-import HogKonvertering from "./elements/blog/HogKonvertering";
-import KostnadsEffektiva from "./elements/blog/KostnadsEffektiva";
+import Design from "./elements/tjanster/Design";
 import error404 from "./elements/error404";
+import Ecom from "./elements/tjanster/Ecom";
+import HogKonvertering from "./elements/blog/HogKonvertering";
+import Kontakt from "./elements/Kontakt";
+import KostnadsEffektiva from "./elements/blog/KostnadsEffektiva";
+import OmOss from "./elements/OmOss";
+import Projektledning from "./elements/tjanster/Projektledning";
+import ServiceDetails from "./elements/ServiceDetails";
+import Tjanster from "./elements/Tjanster";
+import Wordpress from "./elements/tjanster/Wordpress";
+//import PortfolioDetails from "./elements/PortfolioDetails";
 
 // Blocks Layout
 
-import Team from "./blocks/Team";
-import Counters from "./blocks/Counters";
-import Testimonial from "./blocks/Testimonial";
-import Portfolio from "./blocks/Portfolio";
-import VideoPopup from "./blocks/VideoPopup";
-import Gallery from "./blocks/Gallery";
 import Brand from "./blocks/Brand";
-import ProgressBar from "./blocks/ProgressBar";
-import ContactForm from "./blocks/ContactForm";
-import GoogleMap from "./blocks/GoogleMap";
 import Columns from "./blocks/Columns";
+import ContactForm from "./blocks/ContactForm";
+import Counters from "./blocks/Counters";
+import Gallery from "./blocks/Gallery";
+import GoogleMap from "./blocks/GoogleMap";
 import PricingTable from "./blocks/PricingTable";
+import Portfolio from "./blocks/Portfolio";
+import ProgressBar from "./blocks/ProgressBar";
+import Team from "./blocks/Team";
+import Testimonial from "./blocks/Testimonial";
+import VideoPopup from "./blocks/VideoPopup";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
@@ -185,16 +187,26 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/appar`}
               component={Appar}
             />
-
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/wordpress`}
-              component={Wordpress}
+              path={`${process.env.PUBLIC_URL}/design`}
+              component={Design}
             />
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/e-handel`}
               component={Ecom}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/Projektledning`}
+              component={Projektledning}
+            />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/wordpress`}
+              component={Wordpress}
             />
             {/*Tjänster*/}
             <Route

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { Component } from "react";
 
 class BrandTwo extends Component {
@@ -6,58 +7,76 @@ class BrandTwo extends Component {
       <React.Fragment>
         <ul className="brand-style-2">
           <li>
-            <img
-              src="/assets/images/techs/nodejs.svg"
-              alt="Vendfox uses nodejs"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/nodejs.svg"
+                alt="Vendfox uses nodejs"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/Wordpress-Vendfox.svg"
-              alt="vendfox uses wordpress"
-            />
+            <Link to="/wordpress">
+              <img
+                src="/assets/images/techs/Wordpress-Vendfox.svg"
+                alt="vendfox uses wordpress"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/React_Logo.svg"
-              alt="Vendfox uses React"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/React_Logo.svg"
+                alt="Vendfox uses React"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/Vue_Vendfox.svg"
-              alt="Vendfox uses Vue"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/Vue_Vendfox.svg"
+                alt="Vendfox uses Vue"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/laravel_Vendfox.svg"
-              alt="Vendfox uses laravel"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/laravel_Vendfox.svg"
+                alt="Vendfox uses laravel"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/python-Vendfox.svg"
-              alt="Vendfox uses Python"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/python-Vendfox.svg"
+                alt="Vendfox uses Python"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/shopify.svg"
-              alt="Vendfox uses shopify"
-            />
+            <Link to="/e-handel">
+              <img
+                src="/assets/images/techs/shopify.svg"
+                alt="Vendfox uses shopify"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/WooCommerce_vendfox.svg"
-              alt="Vendfox uses woocommerce"
-            />
+            <Link to="/e-handel">
+              <img
+                src="/assets/images/techs/WooCommerce_vendfox.svg"
+                alt="Vendfox uses woocommerce"
+              />
+            </Link>
           </li>
           <li>
-            <img
-              src="/assets/images/techs/amazon-web-services-vendfox.svg"
-              alt="Vendfox uses AWS"
-            />
+            <Link to="/">
+              <img
+                src="/assets/images/techs/amazon-web-services-vendfox.svg"
+                alt="Vendfox uses AWS"
+              />
+            </Link>
           </li>
         </ul>
       </React.Fragment>

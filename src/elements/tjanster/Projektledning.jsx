@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
-import TjansteLista from "../../component/common/TjansteLista";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
 
-class Ecom extends Component {
+class Projektledning extends Component {
   constructor() {
     super();
     this.state = {
@@ -22,7 +21,7 @@ class Ecom extends Component {
     return (
       <React.Fragment>
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle="E-handel" />
+        <PageHelmet pageTitle="Projektledning" />
         {/* End Pagehelmet  */}
 
         <Header
@@ -40,10 +39,10 @@ class Ecom extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">E-handel</h2>
+                  <h2 className="title theme-gradient">Projektledning</h2>
                   <p>
-                    Vi kan e-handel och tillsammans skapar vi motorn i er
-                    försäljning.
+                    Skapa användarvänliga och tilltalande appar, hemsidor och
+                    webbutiker.
                   </p>
                 </div>
               </div>
@@ -65,36 +64,37 @@ class Ecom extends Component {
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/E-handel-med-Vendfox.jpg"
-                            alt="Service Images"
+                            src="/assets/images/service/ui.jpg"
+                            alt="Vendfox UI development"
                           />
                         </div>
                       </div>
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h4 className="title">
-                            Öka er försäljning på nätet{" "}
+                            Ta användarupplevelsen till nästa nivå{" "}
                           </h4>
                           <p>
-                            E-handeln har länge varit tillväxtmotorn när det
-                            gäller företagens försäljning. Men i takt med
-                            utvecklingen så påverkas e-handlarnas vardag. Gamla
-                            sanningar fungerar inte längre och nya lösningar och
-                            verktyg presenteras hela tiden. Man måste vara snabb
-                            på bollen och anpassa sig innan man blir omsprungen
-                            av konkurrenterna.{" "}
+                            Er app eller hemsida är ditt företags ansikte utåt.
+                            Gränssnittet, även kallat{" "}
+                            <a
+                              className="service-details-contactLink"
+                              href="https://www.coursera.org/articles/ui-design"
+                            >
+                              user interface (UI){" "}
+                            </a>
+                            , är där människor och teknik möts. För dina kunder
+                            eller medarbetare kan det vara det främsta sättet de
+                            intragerar mer ert företag. Ett välutformat UI är
+                            enkelt och intuitivt då det ger tydliga
+                            instruktioner om var man ska klicka till visuell
+                            feedback. En bra UI ska fungera så väl på datorn som
+                            i mobilen och fungera för alla sorters användare
+                            oavsett deras förutsättningar. Målet är att skapa en
+                            estetiskt tilltalande samt funktionell och tydlig
+                            användarupplevelse.{" "}
                           </p>
-                          <p>
-                            Vendfox har en bred erfarenhet av e-handel. Vi har
-                            både jobbat med den tekniska sidan med att bygga
-                            välanpassade och moderna e-handelsplattformar men vi
-                            kan även rådge er när det gäller resten av
-                            e-handeln. Efter att ha jobbat med många olika
-                            kunder i flera olika länder så vet vi vad som
-                            fungerar och inte. Därför kan vi erbjuda kompletta
-                            lösningar med CRM system, affärssystem, logistik och
-                            strategier för att lyckas med er e-handel.{" "}
-                          </p>
+                          <p> </p>
                         </div>
                       </div>
                     </div>
@@ -104,33 +104,33 @@ class Ecom extends Component {
                     <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h4 className="title">What is Lorem Ipsum?</h4>
+                          <h4 className="title">Så jobbar vi med design</h4>
 
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum."
+                            För att kunna designa era IT-system så behöver vi
+                            lära känna er. Vi gör en förstudie där vi går igenom
+                            eventuella existerande system, hur ni jobbar idag
+                            och vilka mål ni har. Antingen så utgår vi från er
+                            nuvarande grafiska profil eller så skapar vi en ny
+                            tillsamans.{" "}
                           </p>
                           <p>
-                            {" "}
-                            "Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.{" "}
+                            Vi kan jobba ihop på plats i Uppsala, Stockholm
+                            eller Tranås eller så kan vi utan problem göra
+                            designarbetet på distans. Arbetet genomförs i
+                            omgångar där du får utvärdera designen efter var
+                            omgång. Tillsamans ser vi till att designen passar
+                            ert företag, hur ni jobbar och är flexibel inför
+                            framtida ändringar. Oavsett om det är en app eller
+                            hemsida så ska designen fungera på mobilen. Det är
+                            en rolig fas av utvecklingen där många idéer
+                            utvecklas och där man får se sin vision växa fram.{" "}
+                          </p>
+                          <p>
+                            När vi har gjort klart designen så presenterar vi en
+                            fullt klickbar wireframe. Ni kan då klicka igneom er
+                            nya hemsida, app eller webbutik och se hur den
+                            kommer se ut och fungera när den väl är färdig.{" "}
                           </p>
                         </div>
                       </div>
@@ -138,7 +138,7 @@ class Ecom extends Component {
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src="/assets/images/service/E-handel-med-Vendfox-sida.jpg"
+                            src="/assets/images/service/ux.jpg"
                             alt="Apputveckling med Vendfox"
                           />
                         </div>
@@ -148,27 +148,20 @@ class Ecom extends Component {
                   </div>
                   <div className="row service-details-content">
                     <div className="details">
-                      <h4 className="title ContactText">
-                        Därför bör ni satsa på e-handel:
-                      </h4>
+                      <h4 className="title ContactText">Bra design:</h4>
                       <ul className="liststyle">
                         <li>
-                          Er webbutik kan sälja nästan allt. Även tjänster och
-                          digitala produkter kan säljas online.
-                        </li>
-                        <li>En webbutik är lätt att underhålla.</li>
-                        <li>
-                          Ni kan nå kunder i hela Sverige och även andra länder.
-                        </li>
-                        <li>En webbutik är billigare än en fysisk butik.</li>
-                        <li>
-                          Ni kan driva er webbutik utan att tvingas vara på
-                          plats eller jobba vissa tider.{" "}
+                          ökar er försäljning så väl e-handel som annan
+                          försäljning.
                         </li>
                         <li>
-                          E-handel passar både småbolag och jättar, er
-                          e-handelslösning skalar med er.
+                          gör webbplattformar och appar lättare att bygga. En
+                          bra design underlättar utvecklarnas arbete.
                         </li>
+                        <li>förbättrar produktiviteten. </li>
+                        <li>ökar er interaktion med kunder.</li>
+                        <li>är viktigt för ert varumärke. </li>
+                        <li>gör er hemsida mer synlig på google. </li>
                       </ul>{" "}
                     </div>
                   </div>
@@ -176,7 +169,7 @@ class Ecom extends Component {
                     <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
-                    idag för gratis konsultation om E-handel{" "}
+                    idag för gratis konsultation om Projektledning{" "}
                   </h4>
                   <div className="TjansterButtonCont mt--120 mb--120">
                     <button className=" TjansterButton ">
@@ -203,4 +196,4 @@ class Ecom extends Component {
     );
   }
 }
-export default Ecom;
+export default Projektledning;

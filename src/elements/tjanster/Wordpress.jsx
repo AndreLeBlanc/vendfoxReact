@@ -176,16 +176,17 @@ class Wordpress extends Component {
                     </Link>{" "}
                     idag för gratis konsultation om WordPress{" "}
                   </h4>
+                  <div className="TjansterButtonCont mt--120 mb--120">
+                    <button className=" TjansterButton ">
+                      <Link to="/Tjanster">Fler tjänster</Link>{" "}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         {/* End Page Wrapper */}
-
-        <div>
-          <App title="Fler tjänster" />
-        </div>
 
         {/* Start Back To Top */}
         <div className="backto-top">

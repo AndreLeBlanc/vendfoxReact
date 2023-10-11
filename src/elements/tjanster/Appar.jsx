@@ -76,8 +76,14 @@ class Appar extends Component {
                             Folk använder idag mobilen mer än de använder
                             datorer. Att ha ett bra stöd för mobila användare är
                             idag grundläggande för att nå ut till vissa
-                            målgrupper. Vi bygger appar både för Android och
-                            iOS.{" "}
+                            målgrupper. Vi bygger appar både för{" "}
+                            <a
+                              href="https://www.techtarget.com/searchmobilecomputing/definition/cross-platform-mobile-development"
+                              className="service-details-contactLink"
+                            >
+                              Android och iOS
+                            </a>
+                            .{" "}
                           </p>
                           <ul className="liststyle">
                             <li>
@@ -122,8 +128,14 @@ class Appar extends Component {
                             Behöver ni maximera prestandan så kan vi bygga appar
                             optimerade för varje plattform. Med bred kompetens
                             och möjligheten att ta in nischad expertis till era
-                            projekt så kan vi hjälpa er att designa den
-                            app-lösning som passar erat företag bäst.{" "}
+                            projekt så kan vi hjälpa er att{" "}
+                            <Link
+                              className="service-details-contactLink"
+                              to="/design"
+                            >
+                              designa
+                            </Link>{" "}
+                            den app-lösning som passar erat företag bäst.{" "}
                           </p>
                         </div>
                       </div>
@@ -146,16 +158,17 @@ class Appar extends Component {
                     </Link>{" "}
                     idag för gratis konsultation om apputveckling{" "}
                   </h4>
+                  <div className="TjansterButtonCont mt--120 mb--120">
+                    <button className=" TjansterButton ">
+                      <Link to="/Tjanster">Fler tjänster</Link>{" "}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         {/* End Page Wrapper */}
-
-        <div>
-          <App title="Fler tjänster" />
-        </div>
 
         {/* Start Back To Top */}
         <div className="backto-top">

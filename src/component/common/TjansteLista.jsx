@@ -53,7 +53,7 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30">
-                  <h2>Tjänster</h2>
+                  <h2>Fler Tjänster</h2>
                 </div>
               </div>
             </div>

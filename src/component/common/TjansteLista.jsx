@@ -1,15 +1,4 @@
 import React, { Component, Fragment } from "react";
-import { FaWordpressSimple } from "react-icons/fa";
-import { TbPlug } from "react-icons/tb";
-import {
-  PiDevicesThin,
-  PiWrenchThin,
-  PiBrowsersThin,
-  PiChartLineUpThin,
-  PiFigmaLogoThin,
-  PiStorefrontThin,
-  PiChalkboardTeacherThin,
-} from "react-icons/pi";
 
 const ServiceList = [
   {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
-import ModalVideo from "react-modal-video";
-import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
+import { FiClock, FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
@@ -72,7 +71,11 @@ class AnpassadeAppar extends Component {
                       företaget får kunderna en bättre användarupplevelse
                       kombinerat med företaget nya möjligheter att interagera
                       med kunder och öka försäljningen. Det finns flera goda
-                      skäl till att utveckla en anpassad app:{" "}
+                      skäl till att{" "}
+                      <Link to="/appar" className="links">
+                        {" "}
+                        utveckla en anpassad app:
+                      </Link>{" "}
                     </p>
 
                     <h3>Lättare att använda</h3>

@@ -1,13 +1,4 @@
 import React, { Component } from "react";
-import {
-  PiDevicesThin,
-  PiWrenchThin,
-  PiBrowsersThin,
-  PiChartLineUpThin,
-  PiFigmaLogoThin,
-  PiStorefrontThin,
-  PiChalkboardTeacherThin,
-} from "react-icons/pi";
 
 const ServiceList = [
   {

@@ -41,8 +41,7 @@ class Projektledning extends Component {
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Projektledning</h2>
                   <p>
-                    Skapa användarvänliga och tilltalande appar, hemsidor och
-                    webbutiker.
+                    Fokusera på det du är bra på, låt oss sköta dina IT-projekt.
                   </p>
                 </div>
               </div>
@@ -72,29 +71,23 @@ class Projektledning extends Component {
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h4 className="title">
-                            Ta användarupplevelsen till nästa nivå{" "}
+                            Projektledning kräver erfarenhet.{" "}
                           </h4>
                           <p>
-                            Er app eller hemsida är ditt företags ansikte utåt.
-                            Gränssnittet, även kallat{" "}
-                            <a
-                              className="service-details-contactLink"
-                              href="https://www.coursera.org/articles/ui-design"
-                            >
-                              user interface (UI){" "}
-                            </a>
-                            , är där människor och teknik möts. För dina kunder
-                            eller medarbetare kan det vara det främsta sättet de
-                            intragerar mer ert företag. Ett välutformat UI är
-                            enkelt och intuitivt då det ger tydliga
-                            instruktioner om var man ska klicka till visuell
-                            feedback. En bra UI ska fungera så väl på datorn som
-                            i mobilen och fungera för alla sorters användare
-                            oavsett deras förutsättningar. Målet är att skapa en
-                            estetiskt tilltalande samt funktionell och tydlig
-                            användarupplevelse.{" "}
+                            De flesta skulle inte låta någon med noll erfarenhet
+                            leda bygget av ett hus men låter designen och
+                            projektledningen av ett kompext IT-system skötas av
+                            någon utan erfarenhet. Det är många
+                            utvecklingsprojekt som har misslyckats, gått över
+                            budget eller inte levt upp till förväntningarna.
+                            Ofta beror detta på dålig projektledning och dåliga
+                            upphandlingar snarare än att projektet var ogörbart.{" "}
                           </p>
-                          <p> </p>
+                          <p>
+                            En hemsida eller app kan verka enkel att utveckla
+                            och en komplex e-handelslösning kan verka svår men
+                            vara enkel att lösa.{" "}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -104,34 +97,51 @@ class Projektledning extends Component {
                     <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h4 className="title">Så jobbar vi med design</h4>
+                          <h4 className="title">
+                            Så ser vil till ert IT-projekt lyckas
+                          </h4>
 
                           <p>
-                            För att kunna designa era IT-system så behöver vi
-                            lära känna er. Vi gör en förstudie där vi går igenom
-                            eventuella existerande system, hur ni jobbar idag
-                            och vilka mål ni har. Antingen så utgår vi från er
-                            nuvarande grafiska profil eller så skapar vi en ny
-                            tillsamans.{" "}
+                            Efter att ha jobbat många år inom konsulbranschen
+                            och deltagit i många projekt så vet vi vad som
+                            fungerar. Vi jobbar med{" "}
+                            <Link
+                              to="KostnadsEffektiva"
+                              className="service-details-contactLink"
+                            >
+                              {" "}
+                              agila&nbsp;metoder
+                            </Link>{" "}
+                            vilket innebär att vi låter projekten växa fram
+                            stegvis. Istället för att bygga allt på ett bräde
+                            med ett enda stort projekt så bryter vi ner
+                            projektet i delprojekt (
+                            <a
+                              href="https://www.scrum.org/resources/what-scrum-module"
+                              className="service-details-contactLink"
+                            >
+                              sprintar
+                            </a>
+                            ) . Efter varje sprint så utvärderar vi och justerar
+                            kravspecifikationen. Målet är att upptäcka problem
+                            tidigt, hitta sätt att förbättra produkten och se
+                            till att det som byggs är den bästa lösningen för
+                            kunden. Det är oftast slöseri att bygga en stor
+                            komplex lösning från start. Istället är det bättre
+                            att bygga en billigare och enklare lösning som
+                            snabbt kan komma ut och testas med riktiga
+                            användare. Denna första version ska samtidigt vara
+                            enkel att bygga vidare på och utöka till den färdiga
+                            produkten.{" "}
                           </p>
                           <p>
-                            Vi kan jobba ihop på plats i Uppsala, Stockholm
-                            eller Tranås eller så kan vi utan problem göra
-                            designarbetet på distans. Arbetet genomförs i
-                            omgångar där du får utvärdera designen efter var
-                            omgång. Tillsamans ser vi till att designen passar
-                            ert företag, hur ni jobbar och är flexibel inför
-                            framtida ändringar. Oavsett om det är en app eller
-                            hemsida så ska designen fungera på mobilen. Det är
-                            en rolig fas av utvecklingen där många idéer
-                            utvecklas och där man får se sin vision växa fram.{" "}
+                            Oavsett om ni vill att vi ska leda och utveckla er
+                            nya nya IT-system eller om ni vill ha hjälp med en
+                            upphandling kan vi bistå. Undvik att hamna i
+                            fällorna och se till att er nya webbshop, hemsida
+                            eller app lever upp till förväntningarna.{" "}
                           </p>
-                          <p>
-                            När vi har gjort klart designen så presenterar vi en
-                            fullt klickbar wireframe. Ni kan då klicka igneom er
-                            nya hemsida, app eller webbutik och se hur den
-                            kommer se ut och fungera när den väl är färdig.{" "}
-                          </p>
+                          <p> </p>
                         </div>
                       </div>
                       <div className="col-lg-6 col-12 order-1 order-lg-2">
@@ -148,20 +158,22 @@ class Projektledning extends Component {
                   </div>
                   <div className="row service-details-content">
                     <div className="details">
-                      <h4 className="title ContactText">Bra design:</h4>
+                      <h4 className="title ContactText">Bra Projektledning:</h4>
                       <ul className="liststyle">
+                        <li>gör att ni kommer igång snabbare.</li>
                         <li>
-                          ökar er försäljning så väl e-handel som annan
-                          försäljning.
+                          minskar slöseri och risken att saker måste göras om.
+                        </li>
+                        <li>gör beställaren nödjdare.</li>
+                        <li>ökar kvalitén och minimerar buggar.</li>
+                        <li>
+                          ser till att det ni får är det som bäst passar era
+                          behov.
                         </li>
                         <li>
-                          gör webbplattformar och appar lättare att bygga. En
-                          bra design underlättar utvecklarnas arbete.
+                          skapar bra långsiktiga relationer mellan beställaren
+                          och kunden.
                         </li>
-                        <li>förbättrar produktiviteten. </li>
-                        <li>ökar er interaktion med kunder.</li>
-                        <li>är viktigt för ert varumärke. </li>
-                        <li>gör er hemsida mer synlig på google. </li>
                       </ul>{" "}
                     </div>
                   </div>
@@ -169,7 +181,7 @@ class Projektledning extends Component {
                     <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
-                    idag för gratis konsultation om Projektledning{" "}
+                    för råd kring hur ni bäst projektleder era IT-satsningar.{" "}
                   </h4>
                   <div className="TjansterButtonCont mt--120 mb--120">
                     <button className=" TjansterButton ">

@@ -31,7 +31,7 @@ const ServiceList = [
     title: "Drift och underhåll",
     description:
       "Samarbetet fortsätter långt efter att uppdraget är klart. Drift, underhåll och support erbjuds löpande. Alla servrar och all data hanteras endast från Sverige av GDPR skäl.",
-    link: "/",
+    link: "/drift",
   },
   {
     icon: <FaWordpressSimple />,

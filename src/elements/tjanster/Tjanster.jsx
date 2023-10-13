@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   PiDevicesThin,
   PiBrowsersThin,
@@ -12,24 +13,28 @@ const ServiceList = [
     title: "Webbutveckling",
     description:
       "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar",
+    link: "webbutveckling",
   },
   {
     icon: <PiStorefrontThin />,
     title: "E-handel",
     description:
       "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar",
+    link: "e-handel",
   },
   {
     icon: <PiDevicesThin />,
     title: "Appar",
     description:
       "Ta ditt företag till nästa nivå med en egen app. Med cross-plattform appar kan vi använda samma kodbas på appen och hemsidan",
+    link: "appar",
   },
   {
     icon: <PiWrenchThin />,
     title: "Drift och underhåll",
     description:
-      "Vi ser till att system vi utvecklar driftas, updateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida",
+      "Vi ser till att system vi utvecklar driftas, uppdateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida",
+    link: "drift",
   },
 ];
 
@@ -56,7 +61,7 @@ class Tjanster extends Component {
             <div className="row service-one-wrapper">
               {ServiceList.map((val, i) => (
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                  <a href="/service-details">
+                  <Link to={val.link}>
                     <div className="service service__style--2">
                       <div className="icon">{val.icon}</div>
                       <div className="content">
@@ -64,7 +69,7 @@ class Tjanster extends Component {
                         <p>{val.description}</p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>

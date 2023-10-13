@@ -37,6 +37,7 @@ import Appar from "./elements/tjanster/Appar";
 import Blogg from "./elements/Blogg";
 import BlogDetails from "./elements/BlogDetails";
 import Design from "./elements/tjanster/Design";
+import Drift from "./elements/tjanster/Drift";
 import error404 from "./elements/error404";
 import Ecom from "./elements/tjanster/Ecom";
 import HogKonvertering from "./elements/blog/HogKonvertering";
@@ -192,6 +193,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/design`}
               component={Design}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/drift`}
+              component={Drift}
             />
             <Route
               exact

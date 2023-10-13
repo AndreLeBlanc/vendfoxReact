@@ -71,7 +71,7 @@ class BrandTwo extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/drift">
               <img
                 src="/assets/images/techs/amazon-web-services-vendfox.svg"
                 alt="Vendfox uses AWS"

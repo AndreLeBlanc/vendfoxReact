@@ -85,10 +85,10 @@ class Design extends Component {
                             </a>
                             , är där människor och teknik möts. För dina kunder
                             eller medarbetare kan det vara det främsta sättet de
-                            intragerar mer ert företag. Ett välutformat UI är
+                            interagerar mer ert företag. Ett välutformat UI är
                             enkelt och intuitivt då det ger tydliga
                             instruktioner om var man ska klicka till visuell
-                            feedback. En bra UI ska fungera så väl på datorn som
+                            feedback. En bra UI ska fungera såväl på datorn som
                             i mobilen och fungera för alla sorters användare
                             oavsett deras förutsättningar. Målet är att skapa en
                             estetiskt tilltalande samt funktionell och tydlig
@@ -112,14 +112,14 @@ class Design extends Component {
                             eventuella existerande system, hur ni jobbar idag
                             och vilka mål ni har. Antingen så utgår vi från er
                             nuvarande grafiska profil eller så skapar vi en ny
-                            tillsamans.{" "}
+                            tillsammans.{" "}
                           </p>
                           <p>
                             Vi kan jobba ihop på plats i Uppsala, Stockholm
                             eller Tranås eller så kan vi utan problem göra
                             designarbetet på distans. Arbetet genomförs i
                             omgångar där du får utvärdera designen efter var
-                            omgång. Tillsamans ser vi till att designen passar
+                            omgång. tillsammans ser vi till att designen passar
                             ert företag, hur ni jobbar och är flexibel inför
                             framtida ändringar. Oavsett om det är en app eller
                             hemsida så ska designen fungera på mobilen. Det är
@@ -128,7 +128,7 @@ class Design extends Component {
                           </p>
                           <p>
                             När vi har gjort klart designen så presenterar vi en
-                            fullt klickbar wireframe. Ni kan då klicka igneom er
+                            fullt klickbar wireframe. Ni kan då klicka igenom er
                             nya hemsida, app eller webbutik och se hur den
                             kommer se ut och fungera när den väl är färdig.{" "}
                           </p>
@@ -151,7 +151,7 @@ class Design extends Component {
                       <h4 className="title ContactText">Bra design:</h4>
                       <ul className="liststyle">
                         <li>
-                          ökar er försäljning så väl e-handel som annan
+                          ökar er försäljning såväl e-handel som annan
                           försäljning.
                         </li>
                         <li>

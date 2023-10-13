@@ -5,7 +5,7 @@ const WorkList = [
     icon: "1",
     title: "Konsultation",
     description:
-      "Vi hjälper dig att få en tydlig överblick över vad vi kan göra för ditt företags system. Tillsamans spånar vi idéer och pratar om målbilden och hur vi kan ta oss dit.",
+      "Vi hjälper dig att få en tydlig överblick över vad vi kan göra för ditt företags system. Tillsammans spånar vi idéer och pratar om målbilden och hur vi kan ta oss dit.",
   },
   {
     icon: "2",

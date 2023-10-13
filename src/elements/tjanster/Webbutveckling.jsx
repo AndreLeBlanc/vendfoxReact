@@ -39,7 +39,7 @@ class Webbutveckling extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Webbutveckling</h2>
+                  <h1 className="title theme-gradient">Webbutveckling</h1>
                   <p>
                     Skapa dynamiska och engagerande hemsidor, webbplattformar
                     och webbutiker.
@@ -71,14 +71,43 @@ class Webbutveckling extends Component {
                       </div>
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h4 className="title">
+                          <h2 className="title">
                             En hemsida kan vara så mycket mer{" "}
-                          </h4>
+                          </h2>
                           <p>
-                            Vi skapar skräddarsydda hemsidor som kan fyllas med
-                            dynamsikt innehåll skapat just efter era behov.{" "}
+                            Vill ni digitalisera era interna flöden, skapa en ny
+                            plattform för att interagera med era kunder eller
+                            bygga en{" "}
+                            <Link
+                              to="e-handel"
+                              className="service-details-contactLink"
+                            >
+                              e-handel
+                            </Link>{" "}
+                            utöver det vanliga? Ni kanske inser att ni kan spara
+                            både tid och pengar genom att göra ert företag mer
+                            digitalt. Eller så kanske ni har en idé till nästa
+                            stora grej inom er bransch. Vi på Vendfox kan
+                            webbutveckling och kan bygga hemsidor med mer
+                            funktionalitet och anpassningar. Med både front-end
+                            och back-end utvecklare i teamet kan vi{" "}
+                            <Link
+                              to="design"
+                              className="service-details-contactLink"
+                            >
+                              designa
+                            </Link>{" "}
+                            snygga och funktionella hemsidor med webbappar med
+                            de funktioner som ert företag behöver.{" "}
                           </p>
-                          <p>. </p>
+                          <p>
+                            Er hemsida ska lyfta ert företag och framhäva det
+                            som gör att ni står ut. Istället för att använda
+                            standardmallar så går vi igenom kundens nuvarande
+                            IT-lösningar, hur kunden jobbar och vad kundens mål
+                            är. Tillsammans designar vi er nya hemsida eller
+                            webbapp.{" "}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -88,51 +117,39 @@ class Webbutveckling extends Component {
                     <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h4 className="title">
-                            Så ser vil till ert IT-projekt lyckas
-                          </h4>
-
+                          <h2 className="title">
+                            Återanvänd webbappen som mobilapp
+                          </h2>
                           <p>
-                            Efter att ha jobbat många år inom konsulbranschen
-                            och deltagit i många projekt så vet vi vad som
-                            fungerar. Vi jobbar med{" "}
+                            Moderna hemsidor kan utgöra grunden för en mobilapp.
+                            Större delen av arbetet av att utveckla en webbapp
+                            kan återanvändas för att göra en{" "}
                             <Link
-                              to="KostnadsEffektiva"
+                              to="appar"
                               className="service-details-contactLink"
                             >
                               {" "}
-                              agila&nbsp;metoder
+                              mobilapps&nbsp;version.
                             </Link>{" "}
-                            vilket innebär att vi låter projekten växa fram
-                            stegvis. Istället för att bygga allt på ett bräde
-                            med ett enda stort projekt så bryter vi ner
-                            projektet i delprojekt (
-                            <a
-                              href="https://www.scrum.org/resources/what-scrum-module"
-                              className="service-details-contactLink"
-                            >
-                              sprintar
-                            </a>
-                            ) . Efter varje sprint så utvärderar vi och justerar
-                            kravspecifikationen. Målet är att upptäcka problem
-                            tidigt, hitta sätt att förbättra produkten och se
-                            till att det som byggs är den bästa lösningen för
-                            kunden. Det är oftast slöseri att bygga en stor
-                            komplex lösning från start. Istället är det bättre
-                            att bygga en billigare och enklare lösning som
-                            snabbt kan komma ut och testas med riktiga
-                            användare. Denna första version ska samtidigt vara
-                            enkel att bygga vidare på och utöka till den färdiga
-                            produkten.{" "}
+                            Ofta är mobilen det främsta verktyget folk använder
+                            för att nå tjänster på nätet. Med en bra hemsida och
+                            appar för både Android och iOS har ni en plattform
+                            som når alla era användare. Gränsen mellan
+                            webbutveckling och mobilappsutveckling har blivit
+                            tunnare.{" "}
                           </p>
+                          <h2 className="title">Vi är med på hela resan </h2>
                           <p>
-                            Oavsett om ni vill att vi ska leda och utveckla er
-                            nya nya IT-system eller om ni vill ha hjälp med en
-                            upphandling kan vi bistå. Undvik att hamna i
-                            fällorna och se till att er nya webbshop, hemsida
-                            eller app lever upp till förväntningarna.{" "}
+                            Vi är med på hela resan från idéstadiet till design,
+                            utveckling, drift och vidareutveckling. Vårt mål är
+                            att ha långsiktiga relationer med kunderna och bygga
+                            deras verksamhet tillsammans. Hemsidan eller
+                            webbappen är en central del av kundernas företag och
+                            måste växa och anpassas i takt med att behoven
+                            ändras. Med ett supportavtal så ser vi till att eran
+                            plattform fungerar, uppdateras och hålls säker.
+                            Webbutveckling är mer än att bara bygga en hemsida.
                           </p>
-                          <p> </p>
                         </div>
                       </div>
                       <div className="col-lg-6 col-12 order-1 order-lg-2">
@@ -149,31 +166,40 @@ class Webbutveckling extends Component {
                   </div>
                   <div className="row service-details-content">
                     <div className="details">
-                      <h4 className="title ContactText">Bra Webbutveckling:</h4>
+                      <h2 className="title ContactText">Bra Webbutveckling:</h2>
                       <ul className="liststyle">
-                        <li>gör att ni kommer igång snabbare.</li>
                         <li>
-                          minskar slöseri och risken att saker måste göras om.
+                          låter er anpassa hemsidan till er verksamhet snarare
+                          än att ni anpassar verksamheten till hemsidan.
                         </li>
-                        <li>gör beställaren nödjdare.</li>
-                        <li>ökar kvalitén och minimerar buggar.</li>
+                        <li>möjliggör en uppsjö av funktioner och idéer.</li>
                         <li>
-                          ser till att det ni får är det som bäst passar era
-                          behov.
+                          skapar snabbare och snyggare hemsidor än hemsidor
+                          byggda kring färdiga mallar.
                         </li>
                         <li>
-                          skapar bra långsiktiga relationer mellan beställaren
-                          och kunden.
+                          går att bygga vidare på så de kan växa med ert
+                          företag.
+                        </li>
+                        <li>
+                          kan uppdateras och fortsätter att vara modern och i
+                          framkant under många år framöver.
+                        </li>
+                        <li>
+                          förenklar ert arbete genom att automatisera
+                          arbetsuppgifter. Er hemsida ska avlasta er och era
+                          kunder.
                         </li>
                       </ul>{" "}
                     </div>
                   </div>
-                  <h4 className="title ContactText mt--120">
+                  <h2 className="title ContactText mt--120">
                     <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
-                    för råd kring hur ni bäst projektleder era IT-satsningar.{" "}
-                  </h4>
+                    för en konsultation kring hur ni kan ska hemsidan ert
+                    företag förtjänar.{" "}
+                  </h2>
                   <div className="TjansterButtonCont mt--120 mb--120">
                     <button className=" TjansterButton ">
                       <Link to="/Tjanster">Fler tjänster</Link>{" "}

@@ -16,7 +16,7 @@ class About extends Component {
     let title = "Så jobbar vi",
       description = `Vendfox solutions grundades av två seniora konsulter som funderat 
       länge kring hur man bäst driver ett konsultbolag. Vi tror på att jobba nära kunden,
-      att låta projekten växa fram iterativt och att ha fasta priser. med ett stort 
+      att låta projekten växa fram iterativt och att ha fasta priser. Med ett stort 
       kontaktnät i Indien kan vi rekrytera väl valda utvecklare på ett sätt som endast
       stora konsultbolag brukar kunna. Vi jobbar i blandade team med delar utvecklingen 
       i Sverige och delar i Indien. Målet har varit att erbjuda tjänster som oftast endast

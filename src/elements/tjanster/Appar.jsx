@@ -120,7 +120,7 @@ class Appar extends Component {
                             iOS-app eller Android-app kan till stora delar
                             använda samma kod. På så sätt kan utvecklingen gå
                             betydligt snabbare och priset kan bli betydligt
-                            lägre. Ändringar behevör bara göras en gång för att
+                            lägre. Ändringar behöver bara göras en gång för att
                             alla plattformar ska uppdateras.{" "}
                           </p>
                           <p>
@@ -134,7 +134,7 @@ class Appar extends Component {
                             >
                               designa
                             </Link>{" "}
-                            den app-lösning som passar erat företag bäst.{" "}
+                            den app-lösning som passar ert företag bäst.{" "}
                           </p>
                         </div>
                       </div>

@@ -76,7 +76,7 @@ class Projektledning extends Component {
                           <p>
                             De flesta skulle inte låta någon med noll erfarenhet
                             leda bygget av ett hus men låter designen och
-                            projektledningen av ett kompext IT-system skötas av
+                            projektledningen av ett komplext IT-system skötas av
                             någon utan erfarenhet. Det är många
                             utvecklingsprojekt som har misslyckats, gått över
                             budget eller inte levt upp till förväntningarna.
@@ -102,7 +102,7 @@ class Projektledning extends Component {
                           </h4>
 
                           <p>
-                            Efter att ha jobbat många år inom konsulbranschen
+                            Efter att ha jobbat många år inom konsultbranschen
                             och deltagit i många projekt så vet vi vad som
                             fungerar. Vi jobbar med{" "}
                             <Link
@@ -164,7 +164,7 @@ class Projektledning extends Component {
                         <li>
                           minskar slöseri och risken att saker måste göras om.
                         </li>
-                        <li>gör beställaren nödjdare.</li>
+                        <li>gör beställaren nöjdare.</li>
                         <li>ökar kvalitén och minimerar buggar.</li>
                         <li>
                           ser till att det ni får är det som bäst passar era

@@ -7,7 +7,7 @@ class BrandTwo extends Component {
       <React.Fragment>
         <ul className="brand-style-2">
           <li>
-            <Link to="/">
+            <Link to="/webbutveckling">
               <img
                 src="/assets/images/techs/nodejs.svg"
                 alt="Vendfox uses nodejs"
@@ -23,7 +23,7 @@ class BrandTwo extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/webbutveckling">
               <img
                 src="/assets/images/techs/React_Logo.svg"
                 alt="Vendfox uses React"
@@ -31,7 +31,7 @@ class BrandTwo extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/webbutveckling">
               <img
                 src="/assets/images/techs/Vue_Vendfox.svg"
                 alt="Vendfox uses Vue"
@@ -39,7 +39,7 @@ class BrandTwo extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/webbutveckling">
               <img
                 src="/assets/images/techs/laravel_Vendfox.svg"
                 alt="Vendfox uses laravel"
@@ -47,7 +47,7 @@ class BrandTwo extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/webbutveckling">
               <img
                 src="/assets/images/techs/python-Vendfox.svg"
                 alt="Vendfox uses Python"

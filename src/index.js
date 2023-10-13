@@ -46,6 +46,7 @@ import OmOss from "./elements/OmOss";
 import Projektledning from "./elements/tjanster/Projektledning";
 import ServiceDetails from "./elements/ServiceDetails";
 import Tjanster from "./elements/Tjanster";
+import Webbutveckling from "./elements/tjanster/Webbutveckling";
 import Wordpress from "./elements/tjanster/Wordpress";
 //import PortfolioDetails from "./elements/PortfolioDetails";
 
@@ -203,6 +204,11 @@ class Root extends Component {
               component={Projektledning}
             />
 
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/webbutveckling`}
+              component={Webbutveckling}
+            />
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/wordpress`}

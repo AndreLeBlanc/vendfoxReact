@@ -37,9 +37,9 @@ class HogKonvertering extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">
+                  <h1 className="title theme-gradient">
                     Skapa en hemsida med <br /> hog konvertering
-                  </h2>
+                  </h1>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
                       <FiClock />

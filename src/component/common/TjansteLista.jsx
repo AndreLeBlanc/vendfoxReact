@@ -5,7 +5,7 @@ const ServiceList = [
     title: "Design",
   },
   {
-    title: "Webbplattformar",
+    title: "Webutveckling",
   },
   { title: "Drift och underhåll", link: "/" },
   {

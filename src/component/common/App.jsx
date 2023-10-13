@@ -21,10 +21,10 @@ const ServiceList = [
   },
   {
     icon: <PiBrowsersThin />,
-    title: "Webbplattformar",
+    title: "Webbutveckling",
     description:
       "Skräddarsydda lösningar och anpassningar. Vill integrera ett affärssystem eller bygga ett anpassat system för ditt företag så kan våra programmerare skapa det.",
-    link: "/",
+    link: "/webbutveckling",
   },
   {
     icon: <PiWrenchThin />,

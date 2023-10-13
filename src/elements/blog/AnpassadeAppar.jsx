@@ -21,7 +21,7 @@ class AnpassadeAppar extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Blog Details" />
+        <PageHelmet pageTitle="Vendfox Solutions || Så gynnar anpassade appar ditt företag" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
@@ -37,9 +37,9 @@ class AnpassadeAppar extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">
+                  <h1 className="title theme-gradient">
                     Så gynnar anpassade appar <br /> ditt företag
-                  </h2>
+                  </h1>
                   <ul className="blog-meta d-flex justify-content-center align-items-center">
                     <li>
                       <FiClock />

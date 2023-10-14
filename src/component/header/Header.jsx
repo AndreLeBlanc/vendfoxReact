@@ -83,10 +83,38 @@ class Header extends Component {
                 <li>
                   <Link to="/">Hem</Link>
                 </li>
-                <li>
-                  <Link to="/tjanster">Tjänster</Link>
+                <li className="has-droupdown">
+                  <Link to="/tjanster">Tjanster</Link>
+                  <ul className="submenu">
+                    <li>
+                      <Link to="/design">Design</Link>
+                    </li>
+                    <li>
+                      <Link to="/webbutveckling">Webbutveckling</Link>
+                    </li>
+                    <li>
+                      <Link to="/drift">Drift</Link>
+                    </li>
+                    <li>
+                      <Link to="/wordpress">Wordpress</Link>
+                    </li>
+                    <li>
+                      <Link to="/plugins">Plugins</Link>
+                    </li>
+                    <li>
+                      <Link to="/seo">Seo</Link>
+                    </li>
+                    <li>
+                      <Link to="/appar">Appar</Link>
+                    </li>
+                    <li>
+                      <Link to="/e-handel">E-handel</Link>
+                    </li>
+                    <li>
+                      <Link to="/projektledning">Projektledning</Link>
+                    </li>
+                  </ul>
                 </li>
-
                 <li>
                   <Link to="/om-oss">Om oss</Link>
                 </li>

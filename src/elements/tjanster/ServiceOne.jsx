@@ -27,8 +27,8 @@ class ServiceOne extends Component {
       <React.Fragment>
         <div className="row">
           {ServiceList.map((val, i) => (
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-              <div className="service service__style--1">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 " key={i}>
+              <div className="service service__style--1 mt--90 lg:mt--50">
                 <div className="icon">
                   <img
                     src={`/assets/images/icons/icon-${val.icon}.png`}

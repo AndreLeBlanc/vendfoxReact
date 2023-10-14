@@ -98,7 +98,6 @@
     height: 120px;
     vertical-align: center;
     background-color: $theme-color;
-    color: white;
     text-align: center;
     border-width: 3px;
     border-radius: 10px;
@@ -108,6 +107,13 @@
       background: #ffffff;
       color: $theme-color;
     }
+    color: white;
+    &:visited {
+      color: white;
+    }
+  }
+  &:hover {
+    color: $theme-color;
   }
   .service-details-contactLink {
     color: $theme-color;

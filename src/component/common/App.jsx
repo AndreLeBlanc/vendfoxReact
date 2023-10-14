@@ -17,7 +17,7 @@ const ServiceList = [
     title: "Design",
     description:
       "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
-    link: "/Design",
+    link: "/design",
   },
   {
     icon: <PiBrowsersThin />,
@@ -38,28 +38,28 @@ const ServiceList = [
     title: "Wordpress",
     description:
       "Design, Utveckling och drift av wordpress-sidor. Wordpress är en enkel lösning för att snabbt bygga hemsidor för små och medelstora företag.",
-    link: "/Wordpress",
+    link: "/wordpress",
   },
   {
     icon: <TbPlug />,
     title: "Plugins",
     description:
       "Utveckling av plugins och moduler till existerande hemsidor. Vi hjälper både företag och byråer bygga ny funktionalitet på existerande hemsidor.",
-    link: "/Wordpress",
+    link: "/plugins",
   },
   {
     icon: <PiChartLineUpThin />,
     title: "SEO",
     description:
       "Optimering av hemsidor så att den rankas högre på googles sökresultat. Genom att förbättra din hemsida driver vi trafik och affärer till din hemsida.",
-    link: "/",
+    link: "/seo",
   },
   {
     icon: <PiDevicesThin />,
     title: "Cross-plattform appar",
     description:
       "Cross-platform för mobil apputveckling betyder utveckling av applikationer som kan köras på flera mobilplattformar (iOS och Google Play) med hjälp av samma kodbas. Det snabbar på utvecklingen och sänker kostnaden.",
-    link: "/Appar",
+    link: "/appar",
   },
   {
     icon: <PiStorefrontThin />,

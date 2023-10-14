@@ -44,7 +44,9 @@ import HogKonvertering from "./elements/blog/HogKonvertering";
 import Kontakt from "./elements/Kontakt";
 import KostnadsEffektiva from "./elements/blog/KostnadsEffektiva";
 import OmOss from "./elements/OmOss";
+import Plugins from "./elements/tjanster/Plugins";
 import Projektledning from "./elements/tjanster/Projektledning";
+import Seo from "./elements/tjanster/Seo";
 import ServiceDetails from "./elements/ServiceDetails";
 import Tjanster from "./elements/Tjanster";
 import Webbutveckling from "./elements/tjanster/Webbutveckling";
@@ -206,8 +208,18 @@ class Root extends Component {
             />
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/Projektledning`}
+              path={`${process.env.PUBLIC_URL}/plugins`}
+              component={Plugins}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/projektledning`}
               component={Projektledning}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/seo`}
+              component={Seo}
             />
 
             <Route

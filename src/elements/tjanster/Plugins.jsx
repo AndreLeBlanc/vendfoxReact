@@ -6,7 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
 
-class Ecom extends Component {
+class Plugins extends Component {
   constructor() {
     super();
     this.state = {
@@ -21,7 +21,7 @@ class Ecom extends Component {
     return (
       <React.Fragment>
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle="E-handel" />
+        <PageHelmet pageTitle="Plugins" />
         {/* End Pagehelmet  */}
 
         <Header
@@ -39,11 +39,8 @@ class Ecom extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h1 className="title theme-gradient">E-handel</h1>
-                  <p>
-                    Vi kan e-handel och tillsammans skapar vi motorn i er
-                    försäljning.
-                  </p>
+                  <h1 className="title theme-gradient">Plugins </h1>
+                  <p>Vi hjälper webbyråer möta kundernas behov</p>
                 </div>
               </div>
             </div>
@@ -64,35 +61,29 @@ class Ecom extends Component {
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/E-handel-med-Vendfox.jpg"
-                            alt="Service Images"
+                            src="/assets/images/service/ui.jpg"
+                            alt="Vendfox UI development"
                           />
                         </div>
                       </div>
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h2 className="title">
-                            Öka er försäljning på nätet{" "}
+                            Behöver er webbyrå mer kapacitet?
                           </h2>
                           <p>
-                            E-handeln har länge varit tillväxtmotorn när det
-                            gäller företagens försäljning. Men i takt med
-                            utvecklingen så påverkas e-handlarnas vardag. Gamla
-                            sanningar fungerar inte längre och nya lösningar och
-                            verktyg presenteras hela tiden. Man måste vara snabb
-                            på bollen och anpassa sig innan man blir omsprungen
-                            av konkurrenterna.{" "}
+                            Vi på Vendfox sammarbetar gärna med andra byråer.
+                            Flera av våra bästa projekt har varit tillsammans
+                            med andra. Ofta ha kunder komplexa behov och ni
+                            behöver många olika kompetenser för att leverera. Vi
+                            bistår gärna inom våra expertområden och ser till
+                            att era kunders behov tillgodoses.{" "}
                           </p>
                           <p>
-                            Vendfox har en bred erfarenhet av e-handel. Vi har
-                            både jobbat med den tekniska sidan med att bygga
-                            välanpassade och moderna e-handelsplattformar men vi
-                            kan även rådge er när det gäller resten av
-                            e-handeln. Efter att ha jobbat med många olika
-                            kunder i flera olika länder så vet vi vad som
-                            fungerar och inte. Därför kan vi erbjuda kompletta
-                            lösningar med CRM system, affärssystem, logistik och
-                            strategier för att lyckas med er e-handel.{" "}
+                            Våran expertkompetens ligger inom programmering,
+                            systemutveckling och e-handel. Vi kan bygga
+                            lösningar som kan integreras med era lösningar och
+                            skapar de produkter era kunder efterfrågar.
                           </p>
                         </div>
                       </div>
@@ -103,49 +94,53 @@ class Ecom extends Component {
                     <div className="row service-details-content pb--40  align-items-center">
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
-                          <h2 className="title">
-                            Få den webbutik som passar dig
-                          </h2>
-
+                          <h2 className="title"></h2>
                           <p>
-                            Vi har erfarenhet av olika teknologier och kan bygga
-                            en lösning som är anpassad efter era behov. Har ni
-                            bara ett behov av en mindre lösning i{" "}
+                            Det är ingen slump att vissa företag hamnar högt upp
+                            i sökresultaten medan andra hamnar långt ner.
+                            Företagen som ranrkar högt gör det eftersom de har
+                            satsat på att{" "}
                             <a
-                              href="https://www.shopify.com/se"
+                              href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
                               className="service-details-contactLink"
                             >
-                              shopify&nbsp;
+                              sökmotoroptimering
                             </a>
-                            vara ett prisvärt alternativ. För en liten större
-                            webbutik kan woocommerce och{" "}
-                            <Link
-                              to="/wordpress"
-                              className="service-details-contactLink"
-                            >
-                              wordpress
-                            </Link>{" "}
-                            skapa en butik med mer funktionalitet och lägre
-                            driftskostnader till ett effektivt pris. Om ni vill
-                            ha mer anpassad funktionalitet, egna produkter och
-                            full kontroll över er hemsida kan våra{" "}
-                            <Link
-                              to="/webbutvecklare"
-                              className="service-details-contactLink"
-                            >
-                              webbutvecklare
-                            </Link>{" "}
-                            bygga anpassade e-handels lösningar som är skapade
-                            specifikt för era behov.{" "}
+                            .
                           </p>
-                          <p></p>
+                          <p>
+                            Att hamna högt upp på google kräver ett helhetsgrepp
+                            och en långsiktig strategi. Bra
+                            <Link
+                              to="/webbutveckling"
+                              className="service-details-contactLink"
+                            >
+                              &nbsp;webbutveckling
+                            </Link>{" "}
+                            med en snabb och kvalitativ hemsida hjälper en öka i
+                            rankingen. Buggar på hemsidan och långa
+                            laddningstider gör att man döljs av google.
+                            Innehållet på hemsidan är minst lika viktigt. Innan
+                            man börjar jobba med innehållet bör man ha en
+                            strategi och man bör planera sitt innehåll efter
+                            vilka sökord man vill synas på.
+                          </p>
+                          <p>
+                            Modern seo bygger till stor del på att bygga bra
+                            hemsidor. Om användarna får en bra upplevelse av
+                            hemsidan, stannar länge på hemsidan och google anser
+                            att det håller hög kvalitet så syns den. Därför är
+                            det viktigt för oss att lära känna våra kunder och
+                            deras målgrupper för att kunna skapa en SEO-strategi
+                            som är anpassad för just deras förutsättningar.
+                          </p>
                         </div>
                       </div>
                       <div className="col-lg-6 col-12 order-1 order-lg-2">
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src="/assets/images/service/E-handel-med-Vendfox-sida.jpg"
+                            src="/assets/images/service/ux.jpg"
                             alt="Apputveckling med Vendfox"
                           />
                         </div>
@@ -154,27 +149,29 @@ class Ecom extends Component {
                     {/* End Single Area */}
                   </div>
                   <div className="row service-details-content">
-                    <div className="details">
-                      <h2 className="title ContactText">
-                        Därför bör ni satsa på e-handel:
+                    <div className="details ">
+                      <h2 className="title ContactText ">
+                        Därför behöver ditt företag SEO
                       </h2>
-                      <ul className="liststyle">
-                        <li>
-                          Er webbutik kan sälja nästan allt. Även tjänster och
-                          digitala produkter kan säljas online.
-                        </li>
-                        <li>En webbutik är lätt att underhålla.</li>
-                        <li>
-                          Ni kan nå kunder i hela Sverige och även andra länder.
-                        </li>
-                        <li>En webbutik är billigare än en fysisk butik.</li>
-                        <li>
-                          Ni kan driva er webbutik utan att tvingas vara på
-                          plats eller jobba vissa tider.{" "}
+                      <ul className="liststyle max--w--sm">
+                        <li className="max--w--sm">
+                          Det ger långsiktiga resultat. Annonser kan ge en
+                          tillfällig boost men SEO ger resultat på sikt.
                         </li>
                         <li>
-                          E-handel passar både småbolag och jättar, er
-                          e-handelslösning skalar med er.
+                          Pengarna som läggs på att optimera er hemsida eller
+                          e-handel kommer förbättra den och göra att användarna
+                          som når den konverterar.
+                        </li>
+                        <li>
+                          SEO gör att ni får kontroll över vad som syns när man
+                          söker på ert företag. Få kontroll på ert varumärke
+                          genom att se till att du kontrollerar vad som kommer
+                          upp när man söker på er.{" "}
+                        </li>
+                        <li>
+                          SEO är ett nollsummespel, om du hamnar högre måste
+                          dina konkurrenter per definition hamna lägre.
                         </li>
                       </ul>{" "}
                     </div>
@@ -183,7 +180,8 @@ class Ecom extends Component {
                     <Link className="service-details-contactLink" to="/Kontakt">
                       Kontakta oss
                     </Link>{" "}
-                    idag för gratis konsultation om E-handel{" "}
+                    för en konsultation kring hur ni bäst kan driftsätta er app,
+                    webbshop eller hemsida.{" "}
                   </h2>
                   <div className="TjansterButtonCont mt--120 mb--120">
                     <button className=" TjansterButton ">
@@ -210,4 +208,4 @@ class Ecom extends Component {
     );
   }
 }
-export default Ecom;
+export default Plugins;

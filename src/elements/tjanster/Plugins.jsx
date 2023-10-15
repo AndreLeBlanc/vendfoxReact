@@ -95,44 +95,12 @@ class Plugins extends Component {
                       <div className="col-lg-6 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <h2 className="title"></h2>
+                          <p></p>
                           <p>
-                            Det är ingen slump att vissa företag hamnar högt upp
-                            i sökresultaten medan andra hamnar långt ner.
-                            Företagen som ranrkar högt gör det eftersom de har
-                            satsat på att{" "}
-                            <a
-                              href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
-                              className="service-details-contactLink"
-                            >
-                              sökmotoroptimering
-                            </a>
-                            .
-                          </p>
-                          <p>
-                            Att hamna högt upp på google kräver ett helhetsgrepp
-                            och en långsiktig strategi. Bra
                             <Link
                               to="/webbutveckling"
                               className="service-details-contactLink"
-                            >
-                              &nbsp;webbutveckling
-                            </Link>{" "}
-                            med en snabb och kvalitativ hemsida hjälper en öka i
-                            rankingen. Buggar på hemsidan och långa
-                            laddningstider gör att man döljs av google.
-                            Innehållet på hemsidan är minst lika viktigt. Innan
-                            man börjar jobba med innehållet bör man ha en
-                            strategi och man bör planera sitt innehåll efter
-                            vilka sökord man vill synas på.
-                          </p>
-                          <p>
-                            Modern seo bygger till stor del på att bygga bra
-                            hemsidor. Om användarna får en bra upplevelse av
-                            hemsidan, stannar länge på hemsidan och google anser
-                            att det håller hög kvalitet så syns den. Därför är
-                            det viktigt för oss att lära känna våra kunder och
-                            deras målgrupper för att kunna skapa en SEO-strategi
-                            som är anpassad för just deras förutsättningar.
+                            ></Link>{" "}
                           </p>
                         </div>
                       </div>
@@ -151,27 +119,27 @@ class Plugins extends Component {
                   <div className="row service-details-content">
                     <div className="details ">
                       <h2 className="title ContactText ">
-                        Därför behöver ditt företag SEO
+                        Det kan vi bland annat göra för er webbyrå{" "}
                       </h2>
                       <ul className="liststyle max--w--sm">
                         <li className="max--w--sm">
-                          Det ger långsiktiga resultat. Annonser kan ge en
-                          tillfällig boost men SEO ger resultat på sikt.
+                          Bredda ert utbud med backend utveckling utöver vad ni
+                          kan göra inhouse.
                         </li>
                         <li>
-                          Pengarna som läggs på att optimera er hemsida eller
-                          e-handel kommer förbättra den och göra att användarna
-                          som når den konverterar.
+                          Se till att era kunder lyckas med e-handel genom att
+                          ta in vår expertis på området.
                         </li>
                         <li>
-                          SEO gör att ni får kontroll över vad som syns när man
-                          söker på ert företag. Få kontroll på ert varumärke
-                          genom att se till att du kontrollerar vad som kommer
-                          upp när man söker på er.{" "}
+                          Låt inte era kunder vänta, vi har förmågan att skala
+                          snabbt och ta nya uppdrag.
                         </li>
                         <li>
-                          SEO är ett nollsummespel, om du hamnar högre måste
-                          dina konkurrenter per definition hamna lägre.
+                          Få de wordpress-plugins din kund efterfrågar. Vi
+                          utvecklar och modifierar wordpress-plugins.
+                        </li>
+                        <li>
+                          Integrera olika system och bygga ihop större system.
                         </li>
                       </ul>{" "}
                     </div>

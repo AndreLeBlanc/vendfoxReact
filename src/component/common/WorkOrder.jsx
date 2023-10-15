@@ -27,15 +27,15 @@ const WorkList = [
   },
   {
     icon: "5",
-    title: "Utveckling",
-    description:
-      "När designen är klar börjar vi med utvecklingen. Projektledning är alltid i Sverige medan delar av utvecklingen sker i Indien. Vi tror på att jobba nära kunderna och låta projektet växa fram stegvis.",
-  },
-  {
-    icon: "6",
     title: "Drift",
     description:
       "Vi hjälper givetvis till att drifta och vidareutveckla det vi har byggt. Med ett underhållsavtal från oss så kommer alla servrar och all data endast finnas i Sverige och hanteras härifrån av GDPR skäl.",
+  },
+  {
+    icon: "6",
+    title: "vidareutveckling",
+    description:
+      "Vi fortsätter att bygga ut era system och anpassa dem i takt med att era behov förändras. Låt era system växa fram över tid istället för att utveckla allt på ett bräde och se till att de alltid är moderna.",
   },
 ];
 

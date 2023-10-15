@@ -11,7 +11,7 @@ class OmOss extends Component {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/about-1.jpg"
+                    src="/assets/images/team/agnes.jpg"
                     alt="About Images"
                   />
                 </div>

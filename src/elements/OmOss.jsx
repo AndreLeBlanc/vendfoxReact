@@ -174,16 +174,14 @@ class About extends Component {
                   </ul>
                 </div>
               </div>
-              {/* End Single Team  */}
-
-              {/* Start Single Team  */}
+              {/* End Single Team  */} {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <div className="thumbnail">
                     <img
                       className="w-100"
-                      src="/assets/images/team/team-02.jpg"
-                      alt="Anto head of operations Vendfox"
+                      src="/assets/images/team/anto.jpg"
+                      alt="André head of operations Vendfox"
                     />
                   </div>
                   <div className="content">
@@ -199,8 +197,23 @@ class About extends Component {
                   </ul>
                 </div>
               </div>
-              {/* End Sin
-              gle Team  */}
+              {/* End Single Team  */} {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <div className="thumbnail">
+                    <img
+                      className="w-100"
+                      src="/assets/images/team/leonard.jpg"
+                      alt="Leonard business advisor"
+                    />
+                  </div>
+                  <div className="content">
+                    <h4 className="title">Leonard Le Blanc</h4>
+                    <p className="designation">Senior business advisor</p>
+                  </div>
+                </div>
+              </div>
+              {/* End Single Team  */}
             </div>
           </div>
         </div>

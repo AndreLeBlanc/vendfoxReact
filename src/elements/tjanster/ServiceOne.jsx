@@ -2,22 +2,22 @@ import React, { Component } from "react";
 
 const ServiceList = [
   {
-    icon: "01",
-    title: "Business Stratagy",
+    icon: "03",
+    title: "Vi bygger era IT-lösningar",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "Med ett erfaret team av IT-konsulter kan vi digitalisera ert företag med hemsidor, appar och e-handel.",
+  },
+  {
+    icon: "01",
+    title: "Liten konsultbyrå i stort format",
+    description:
+      "Vendfox har erbjuder de stora konsultbolagens tjänster till ett litet konsultbolags pris.",
   },
   {
     icon: "02",
-    title: "Website Development",
+    title: "Uppsala, Stockholm och Tranås",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-  },
-  {
-    icon: "03",
-    title: "Marketing & Reporting",
-    description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "Vi jobbar med kunder och utvecklare på olika håll men finns lokalt i Uppsala, Stockholm och Tranås.",
   },
 ];
 

@@ -12,28 +12,28 @@ const ServiceList = [
     icon: <PiBrowsersThin />,
     title: "Webbutveckling",
     description:
-      "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar",
+      "Vi designar och bygger hemsidor från snygga och användarvänliga wordpress-sidor till större webbplattformar.",
     link: "webbutveckling",
   },
   {
     icon: <PiStorefrontThin />,
     title: "E-handel",
     description:
-      "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar",
+      "Ta din försäljning till nästa nivå med våra e-handelslösningar. Med 14 års erfarenhet kan vi bygga förstklassiga lösningar.",
     link: "e-handel",
   },
   {
     icon: <PiDevicesThin />,
     title: "Appar",
     description:
-      "Ta ditt företag till nästa nivå med en egen app. Med cross-plattform appar kan vi använda samma kodbas på appen och hemsidan",
+      "Ta ditt företag till nästa nivå med en egen app. Med cross-plattform appar kan vi använda samma kodbas på appen och hemsidan.",
     link: "appar",
   },
   {
     icon: <PiWrenchThin />,
     title: "Drift och underhåll",
     description:
-      "Vi ser till att system vi utvecklar driftas, uppdateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida",
+      "Vi ser till att system vi utvecklar driftas, uppdateras och underhålls. Med supportavtal tar vi ansvaret för er hemsida.",
     link: "drift",
   },
 ];
@@ -42,7 +42,7 @@ class Tjanster extends Component {
   render() {
     let title = "Tjänster",
       description =
-        "Vendfox Solutions är en webbyrå som hjälper dig designa och utveckla din webbplats, app eller e-handel. Vi är en heltäckande byrå med mycket bred kompetens. Genom kundnära samarbete och agila arbetssätt och fokus på er verksamhet bygger vi ditt projekt.";
+        "Vendfox Solutions är en webbyrå som hjälper dig designa och utveckla din webbplats, app eller e-handel. Vi är en heltäckande byrå med mycket bred kompetens. Genom kundnära samarbete, agila arbetssätt och fokus på er verksamhet bygger vi ditt projekt.";
     return (
       <React.Fragment>
         <div className="row">

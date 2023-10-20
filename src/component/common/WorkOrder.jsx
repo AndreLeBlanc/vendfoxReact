@@ -17,7 +17,7 @@ const WorkList = [
     icon: "3",
     title: "Design",
     description:
-      "Det är viktigt att du får se vad du får innan du slår till. Därför brukar vi göra designen först. Våra designers designar er lösning med er och när arbetet är klart får ni se hur resultatet kommer bli.",
+      "Det är viktigt att du ser vad du får innan du slår till. Därför brukar vi göra designen först. Vi designar hemsidor eller appar med er och när arbetet är klart får ni se hur resultatet kommer bli.",
   },
   {
     icon: "4",
@@ -29,13 +29,13 @@ const WorkList = [
     icon: "5",
     title: "Drift",
     description:
-      "Vi hjälper givetvis till att drifta och vidareutveckla det vi har byggt. Med ett underhållsavtal från oss så kommer alla servrar och all data endast finnas i Sverige och hanteras härifrån av GDPR skäl.",
+      "Vi hjälper givetvis till att drifta och vidareutveckla det vi har byggt. Med ett underhållsavtal från oss kommer alla servrar och all data endast finnas i Sverige och hanteras härifrån av GDPR skäl.",
   },
   {
     icon: "6",
-    title: "vidareutveckling",
+    title: "Vidareutveckling",
     description:
-      "Vi fortsätter att bygga ut era system och anpassa dem i takt med att era behov förändras. Låt era system växa fram över tid istället för att utveckla allt på ett bräde och se till att de alltid är moderna.",
+      "Vi fortsätter att bygga ut era system och anpassa dem i takt med att era behov förändras. Låt era system växa fram över tid istället för att utveckla allt på ett bräde. på så sätt är de alltid är moderna.",
   },
 ];
 

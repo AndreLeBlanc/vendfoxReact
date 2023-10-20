@@ -16,14 +16,14 @@ const ServiceList = [
     icon: <PiFigmaLogoThin />,
     title: "Design",
     description:
-      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Ni bollar idéer för att skapa en hemsida för er.",
+      "Våra erfarna designers analyserar ert företag och era behov och designar hemsidor som är både funktionella och snygga. Vi bollar idéer med er för att skapa er hemsida.",
     link: "/design",
   },
   {
     icon: <PiBrowsersThin />,
     title: "Webbutveckling",
     description:
-      "Skräddarsydda lösningar och anpassningar. Vill integrera ett affärssystem eller bygga ett anpassat system för ditt företag så kan våra programmerare skapa det.",
+      "Skräddarsydda hemsidor med bra design. Våra webbutvecklare kan integrera ett betalsystem eller bygga en webbplattform men den funktionaliteten ert företag behöver.",
     link: "/webbutveckling",
   },
   {
@@ -37,7 +37,7 @@ const ServiceList = [
     icon: <FaWordpressSimple />,
     title: "Wordpress",
     description:
-      "Design, Utveckling och drift av wordpress-sidor. Wordpress är en enkel lösning för att snabbt bygga hemsidor för små och medelstora företag.",
+      "Design, utveckling och drift av wordpresshemsidor. Wordpress är en enkel lösning för att snabbt bygga hemsidor för små och medelstora företag.",
     link: "/wordpress",
   },
   {
@@ -51,28 +51,28 @@ const ServiceList = [
     icon: <PiChartLineUpThin />,
     title: "SEO",
     description:
-      "Optimering av hemsidor så att den rankas högre på googles sökresultat. Genom att förbättra din hemsida driver vi trafik och affärer till din hemsida.",
+      "Optimering av hemsidor så att de rankas högre på googles sökresultat. Genom att vi optimerar din hemsida driver vi trafik och affärer till din hemsida.",
     link: "/seo",
   },
   {
     icon: <PiDevicesThin />,
     title: "Cross-plattform appar",
     description:
-      "Cross-platform för mobil apputveckling betyder utveckling av applikationer som kan köras på flera mobilplattformar (iOS och Google Play) med hjälp av samma kodbas. Det snabbar på utvecklingen och sänker kostnaden.",
+      "Cross-platform för mobil apputveckling betyder utveckling av applikationer som kan köras på flera mobilplattformar (iOS och Android) med samma kodbas. Det snabbar på utvecklingen, förenklar driften och sänker kostnaden.",
     link: "/appar",
   },
   {
     icon: <PiStorefrontThin />,
     title: "E-handel",
     description:
-      "Vårt team har varit delaktiga i hundratals e-handelsprojekt. Vi kan bygga allt från enklare lösningar i woocommerce till skräddarsydda lösningar. Maximera försäljningen och minimerar arbetet med integrationer med betal och affärssystem.",
+      "Vårt team har varit delaktiga i hundratals e-handelsprojekt. Vi bygger allt från enklare lösningar i woocommerce till skräddarsydda webbutiker. Öka försäljningen och minimerar arbetet med integrationer för betal och affärssystem.",
     link: "/e-handel",
   },
   {
     icon: <PiChalkboardTeacherThin />,
     title: "Projektledning",
     description:
-      "Med vår omfattande erfarenhet av IT-projekt kan vi hjälpa er leda era IT-projekt. Vi är vana vid att både vara beställare och leverantör och kan skriva kravspecifikationer, designa system och bistå med upphandlingar.",
+      "Med vår omfattande erfarenhet av projektledning kan vi hjälpa er leda era IT-projekt. Vi är vana vid att både vara beställare och leverantör. Vi kan skriva kravspecifikationer, designa system och bistå med era upphandlingar.",
     link: "/projektledning",
   },
 ];

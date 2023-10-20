@@ -40,12 +40,12 @@ class OmOss extends Component {
                   <div className="row mt--30 mt_sm--10">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
-                        <h3 className="title">Vi kan</h3>
+                        <h3 className="title">Vi kan:</h3>
                         <p>
-                          Bygga något nytt, en enskild webbplats, e-handel eller
-                          ett helt ny IT-system. Ta era existerande system till
-                          nästa nivå. Få er att växa, förbättra eller förändra
-                          er verksamhet med bättre verktyg och system.{" "}
+                          Bygga en webbplats, e-handel eller app. Ta era
+                          existerande system till nästa nivå. Få er att växa,
+                          förbättra eller förändra er verksamhet med bättre
+                          verktyg och system.{" "}
                         </p>
                       </div>
                     </div>

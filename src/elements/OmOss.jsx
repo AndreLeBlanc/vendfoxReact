@@ -17,11 +17,12 @@ class About extends Component {
     let title = "Så jobbar vi",
       description = `Vendfox solutions grundades av två seniora konsulter som funderat 
       länge kring hur man bäst driver ett konsultbolag. Vi tror på att jobba nära kunden,
-      att låta projekten växa fram iterativt och att ha fasta priser. Med ett stort 
+      att låta projekt växa fram iterativt och att ha fasta priser. Med ett stort 
       kontaktnät i Indien kan vi rekrytera väl valda utvecklare på ett sätt som endast
-      stora konsultbolag brukar kunna. Vi jobbar i blandade team med delar utvecklingen 
-      i Sverige och delar i Indien. Målet har varit att erbjuda tjänster som oftast endast
-      stora konsultbolag erbjuder i ett mindre format och med en bråkdel av deras omkostnader med en större omtanke för små och medelstora kunder.`;
+      stora konsultbolag brukar kunna. Vi jobbar i blandade team med delar av utvecklingen 
+      i Sverige och delar i Indien. Målet är att erbjuda tjänster som oftast endast
+      stora konsultbolag erbjuder, fast i ett mindre format. Vi har en bråkdel av de 
+      stora konsultbolagens omkostnader med större omtanke för små och medelstora kunder.`;
     return (
       <React.Fragment>
         <PageHelmet pageTitle="Om oss" />
@@ -61,8 +62,8 @@ class About extends Component {
                           <h3 className="title">Analys</h3>
                           <p>
                             Vi analyserar ert företag, era behov och era
-                            nuvarande IT-lösningar. Tillsammans designar vi er
-                            nya lösning och skriver en kravspecifikation. Vi
+                            nuvarande IT-system. Tillsammans designar vi nya
+                            lösningar och skriver en kravspecifikation. Vi
                             erbjuder fasta priser och avtalen är alltid med vårt
                             svenska bolag.
                           </p>
@@ -76,7 +77,7 @@ class About extends Component {
                             där vi utvärderar och prioriterar arbetet efter
                             varje sprint. Projektledning, servrar och data
                             hanteras alltid från Sverige. Våra utvecklare i
-                            Sverige och Indien utvecklar mjukvaran Tillsammans.
+                            Sverige och Indien utvecklar mjukvaran tillsammans.
                           </p>
                         </div>
                       </div>

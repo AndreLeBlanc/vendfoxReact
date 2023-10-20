@@ -74,7 +74,7 @@ class Footer extends Component {
                         <div className="footer-text-div">
                           <p className="footer-text">
                             Telefon: 076 275 77 64 <br />
-                            Vi finns i Uppsala, Stockholm och Tranås
+                            Vi finns i Uppsala, Stockholm och Tranås.
                           </p>
                         </div>
                         <div className="social-share-inner">

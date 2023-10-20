@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
@@ -87,9 +88,9 @@ class Hem extends Component {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                  <a className="btn-transparent rn-btn-dark" href="/blogg">
+                  <Link to="/blogg" className="btn-transparent rn-btn-dark">
                     <span className="text">See alla</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -98,23 +99,23 @@ class Hem extends Component {
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href={value.link}>
+                      <Link to={value.link}>
                         <img
                           className="w-100"
                           src={`/assets/images/blog/${value.images}`}
                           alt="Blog Images"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href={value.link}>{value.title}</a>
+                        <Link to={value.link}>{value.title}</Link>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href={value.link}>
+                        <Link to={value.link} className="rn-btn text-white">
                           Läs mer
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Header from "../component/header/Header";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
@@ -23,9 +24,9 @@ class error404 extends Component {
                   <h3 className="sub-title">Sidan saknas</h3>
                   <span>Sidan du letar efter verkar inte finnas. </span>
                   <div className="error-button">
-                    <a className="rn-button-style--2 btn-solid" href="/">
+                    <Link to="/" className="rn-button-style--2 btn-solid">
                       Tillbaka till hem
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

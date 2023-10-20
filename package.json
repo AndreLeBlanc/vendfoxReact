@@ -2,6 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -84,7 +85,7 @@
   },
   "scripts": {
     "start": "node --openssl-legacy-provider scripts/start.js",
-    "build": "node --openssl-legacy-provider  scripts/build.js",
+    "build": "node --openssl-legacy-provider scripts/build.js",
     "buildAWS": "node  scripts/build.js",
     "test": "node scripts/test.js"
   },

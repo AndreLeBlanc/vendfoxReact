@@ -143,8 +143,8 @@ class AnpassadeAppar extends Component {
                       kunderna använder appen. Om ni ska ha funktionerna på er
                       hemsida har ni redan gjort lejonparten av allt arbete som
                       krävs för att utveckla en app.{" "}
-                      <a href="/kontakt">kontakta oss</a> på vendfox för gratis
-                      rådgivning kring hur ni kan bygga er app.{" "}
+                      <Link to="/kontakt">kontakta oss</Link> på vendfox för
+                      gratis rådgivning kring hur ni kan bygga er app.{" "}
                     </p>
                   </div>
                 </div>

@@ -33,38 +33,11 @@ class Header extends Component {
         };
       }
     }
-    const { logo, color = "default-color" } = this.props;
+    const { color = "default-color" } = this.props;
     let logoUrl;
-    if (logo === "light") {
-      logoUrl = (
-        <img src="/assets/images/logo/Vendfox_logo.png" alt="Vendfox Logo" />
-      );
-    } else if (logo === "dark") {
-      logoUrl = (
-        <img src="/assets/images/logo/logo-dark.png" alt="Vendfox Logo" />
-      );
-    } else if (logo === "symbol-dark") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-dark.png"
-          alt="Vendfox Logo"
-        />
-      );
-    } else if (logo === "symbol-light") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-light.png"
-          alt="Vendfox Logo"
-        />
-      );
-    } else {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/VENDFOXLOGOscaled.png"
-          alt="Vendfox Logo"
-        />
-      );
-    }
+    logoUrl = (
+      <img src="/assets/images/logo/VENDFOXLOGOscaled.png" alt="Vendfox Logo" />
+    );
 
     return (
       <header

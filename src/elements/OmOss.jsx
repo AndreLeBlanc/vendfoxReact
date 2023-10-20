@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "./common/Breadcrumb";
 import WorkOrder from "../component/common/WorkOrder";
@@ -114,9 +115,9 @@ class About extends Component {
                   inom IT. Vi erbjuder bland annat hemsidor, Webbplattformar,
                   e-handelslösningar och affärssystem.
                 </p>
-                <a className="rn-btn btn-white" href="/tjanster">
+                <Link to="/tjanster" className="rn-btn btn-white">
                   Tjänster
-                </a>
+                </Link>
               </div>
             </div>
             <div className="thumbnail">

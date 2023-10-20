@@ -51,9 +51,9 @@ class Tjanster extends Component {
               <h2 className="title">{title}</h2>
               <p>{description}</p>
               <div className="service-btn">
-                <a className="btn-transparent rn-btn-dark" href="/tjanster">
+                <Link to="/tjanster" className="btn-transparent rn-btn-dark">
                   <span className="text">Läs mer</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/src/pages"
+      }
+    ],
+    "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat"
+  ],
+  "paths": {
+    "ROOT": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat",
+    "SRC": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/src",
+    "DIST": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/dist",
+    "ASSETS": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/dist",
+    "PLUGINS": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/plugins",
+    "TEMP": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/tmp",
+    "ARTIFACTS": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/artifacts",
+    "PUBLIC": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/public",
+    "NODE_MODULES": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/node_modules",
+    "EXCLUDE_MODULES": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/node_modules",
+    "PACKAGE": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/package.json",
+    "HTML_TEMPLATE": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/dist/index.html",
+    "STATIC_DATA": "/home/andre/Documents/code/themeforest-RajtsVoh-trydo-creative-agency-react-template/trydo/vendfoxstat/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

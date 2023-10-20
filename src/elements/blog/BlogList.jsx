@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import BlogContent from "./BlogContent";
-
+import { Link } from "react-router-dom";
 class BLogList extends Component {
   render() {
     const PostList = BlogContent.slice(0, 6);
@@ -22,12 +22,12 @@ class BLogList extends Component {
                 <div className="content">
                   <p className="blogtype">{value.category}</p>
                   <h4 className="title">
-                    <a href={value.link}>{value.title}</a>
+                    <Link to={value.link}>{value.title}</Link>
                   </h4>
                   <div className="blog-btn">
-                    <a className="rn-btn text-white" href={value.link}>
+                    <Link to={value.link} className="rn-btn text-white">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

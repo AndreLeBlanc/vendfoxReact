@@ -13,7 +13,7 @@ const BlogContent = [
   },
   {
     images: "OkaForsaljningenVendfox.webp",
-    title: "Skapa en hemsida med hog konvertering",
+    title: "Skapa en hemsida med hög konvertering",
     category: "Design",
     link: "/skapa-en-hemsida-med-hog-konvertering",
   },

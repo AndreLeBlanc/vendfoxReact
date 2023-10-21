@@ -89,7 +89,7 @@ class Hem extends Component {
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
                   <Link to="/blogg" className="btn-transparent rn-btn-dark">
-                    <span className="text">See alla</span>
+                    <span className="text">Se alla inlägg</span>
                   </Link>
                 </div>
               </div>

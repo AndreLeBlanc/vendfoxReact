@@ -11,7 +11,7 @@ const ServiceList = [
     icon: "01",
     title: "Liten konsultbyrå i stort format",
     description:
-      "Vendfox har erbjuder de stora konsultbolagens tjänster till ett litet konsultbolags pris.",
+      "Vendfox erbjuder de stora konsultbolagens tjänster till ett litet konsultbolags pris.",
   },
   {
     icon: "02",

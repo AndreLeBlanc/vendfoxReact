@@ -1,5 +1,5 @@
 // React Required
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 // Create Import File
@@ -61,8 +61,6 @@ import ContactForm from "./blocks/ContactForm";
 import Counters from "./blocks/Counters";
 import Gallery from "./blocks/Gallery";
 import GoogleMap from "./blocks/GoogleMap";
-import PricingTable from "./blocks/PricingTable";
-import Portfolio from "./blocks/Portfolio";
 import ProgressBar from "./blocks/ProgressBar";
 import Team from "./blocks/Team";
 import Testimonial from "./blocks/Testimonial";
@@ -70,14 +68,13 @@ import VideoPopup from "./blocks/VideoPopup";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
-class Root extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <PageScrollTop>
-          <Switch>
-            <Route exact path={"/"} component={Hem} />
-            {/*
+export default function Root() {
+  return (
+    <BrowserRouter>
+      <PageScrollTop>
+        <Switch>
+          <Route exact path={"/"} component={Hem} />
+          {/*
             <Route
               exact
               path={`/Hem`}
@@ -174,67 +171,64 @@ class Root extends Component {
               component={InteractiveAgency}
             />
     */}
-            {/* Element Layot */}
-            <Route exact path={`/tjanster`} component={Tjanster} />
-            <Route exact path={`/service-details`} component={ServiceDetails} />
-            {/* Tjänster*/}
-            <Route exact path={`/appar`} component={Appar} />
-            <Route exact path={`/design`} component={Design} />
-            <Route exact path={`/drift`} component={Drift} />
-            <Route exact path={`/e-handel`} component={Ecom} />
-            <Route exact path={`/plugins`} component={Plugins} />
-            <Route exact path={`/projektledning`} component={Projektledning} />
-            <Route exact path={`/seo`} component={Seo} />
+          {/* Element Layot */}
+          <Route exact path={`/tjanster`} component={Tjanster} />
+          <Route exact path={`/service-details`} component={ServiceDetails} />
+          {/* Tjänster*/}
+          <Route exact path={`/appar`} component={Appar} />
+          <Route exact path={`/design`} component={Design} />
+          <Route exact path={`/drift`} component={Drift} />
+          <Route exact path={`/e-handel`} component={Ecom} />
+          <Route exact path={`/plugins`} component={Plugins} />
+          <Route exact path={`/projektledning`} component={Projektledning} />
+          <Route exact path={`/seo`} component={Seo} />
 
-            <Route exact path={`/webbutveckling`} component={Webbutveckling} />
-            <Route exact path={`/wordpress`} component={Wordpress} />
-            {/*Tjänster*/}
-            <Route exact path={`/kontakt`} component={Kontakt} />
-            <Route exact path={`/om-oss`} component={OmOss} />
-            {/*       <Route
+          <Route exact path={`/webbutveckling`} component={Webbutveckling} />
+          <Route exact path={`/wordpress`} component={Wordpress} />
+          {/*Tjänster*/}
+          <Route exact path={`/kontakt`} component={Kontakt} />
+          <Route exact path={`/om-oss`} component={OmOss} />
+          {/*       <Route
               exact
               path={`/portfolio-details`}
               component={PortfolioDetails}
   />*/}
-            <Route exact path={`/blogg`} component={Blogg} />
-            <Route exact path={`/blog-details`} component={BlogDetails} />
-            {/***************************** BLOGGINLÄGG ******************************************/}
-            <Route
-              exact
-              path={`/sa-gynnar-anpassade-appar-ditt-foretag`}
-              component={AnpassadeAppar}
-            />
-            <Route
-              exact
-              path={`/sa-skapar-vi-kostnadseffektiva-losningar`}
-              component={KostnadsEffektiva}
-            />
-            <Route
-              exact
-              path={`/skapa-en-hemsida-med-hog-konvertering`}
-              component={HogKonvertering}
-            />
-            {/*************************************************************************************/}
-            {/* Blocks Elements  */}
-            <Route exact path={`/team`} component={Team} />
-            <Route exact path={`/counters`} component={Counters} />
-            <Route exact path={`/testimonial`} component={Testimonial} />
-            <Route exact path={`/portfolio`} component={Portfolio} />
-            <Route exact path={`/video-popup`} component={VideoPopup} />
-            <Route exact path={`/gallery`} component={Gallery} />
-            <Route exact path={`/clint-logo`} component={Brand} />
-            <Route exact path={`/progressbar`} component={ProgressBar} />
-            <Route exact path={`/contact-form`} component={ContactForm} />
-            <Route exact path={`/google-map`} component={GoogleMap} />
-            <Route exact path={`/columns`} component={Columns} />
-            <Route exact path={`/pricing-table`} component={PricingTable} />
-            <Route path={`/404`} component={error404} />
-            <Route component={error404} />
-          </Switch>
-        </PageScrollTop>
-      </BrowserRouter>
-    );
-  }
+          <Route exact path={`/blogg`} component={Blogg} />
+          <Route exact path={`/blog-details`} component={BlogDetails} />
+          {/***************************** BLOGGINLÄGG ******************************************/}
+          <Route
+            exact
+            path={`/sa-gynnar-anpassade-appar-ditt-foretag`}
+            component={AnpassadeAppar}
+          />
+          <Route
+            exact
+            path={`/sa-skapar-vi-kostnadseffektiva-losningar`}
+            component={KostnadsEffektiva}
+          />
+          <Route
+            exact
+            path={`/skapa-en-hemsida-med-hog-konvertering`}
+            component={HogKonvertering}
+          />
+          {/*************************************************************************************/}
+          {/* Blocks Elements  */}
+          <Route exact path={`/team`} component={Team} />
+          <Route exact path={`/counters`} component={Counters} />
+          <Route exact path={`/testimonial`} component={Testimonial} />
+          <Route exact path={`/video-popup`} component={VideoPopup} />
+          <Route exact path={`/gallery`} component={Gallery} />
+          <Route exact path={`/clint-logo`} component={Brand} />
+          <Route exact path={`/progressbar`} component={ProgressBar} />
+          <Route exact path={`/contact-form`} component={ContactForm} />
+          <Route exact path={`/google-map`} component={GoogleMap} />
+          <Route exact path={`/columns`} component={Columns} />
+          <Route path={`/404`} component={error404} />
+          <Route component={error404} />
+        </Switch>
+      </PageScrollTop>
+    </BrowserRouter>
+  );
 }
 
 ReactDOM.render(<Root />, document.getElementById("root"));

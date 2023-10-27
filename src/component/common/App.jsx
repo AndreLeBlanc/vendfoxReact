@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import { FaWordpressSimple } from "react-icons/fa";
 import { TbPlug } from "react-icons/tb";
 import {
@@ -76,48 +76,44 @@ const ServiceList = [
     link: "/projektledning",
   },
 ];
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <div className="service-area creative-service-wrapper pt--60 pb--60 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>{this.props.title}</h2>
-                  <p>
-                    Vendfox är en erfaren webbyrå som kan erbjuda ett brett
-                    utbud av tjänster. <br />
-                    Vi kan erbjuda helhetslösningar där vi sköter alla aspekter
-                    av er närvaro på internet.
-                  </p>
-                </div>
+export default function App() {
+  return (
+    <Fragment>
+      <div className="service-area creative-service-wrapper pt--60 pb--60 bg_color--1">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb--30">
+                <h2>{this.props.title}</h2>
+                <p>
+                  Vendfox är en erfaren webbyrå som kan erbjuda ett brett utbud
+                  av tjänster. <br />
+                  Vi kan erbjuda helhetslösningar där vi sköter alla aspekter av
+                  er närvaro på internet.
+                </p>
               </div>
             </div>
-            <div className="row creative-service">
-              {ServiceList.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a className="text-center" href={val.link}>
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
+          </div>
+          <div className="row creative-service">
+            {ServiceList.map((val, i) => (
+              <div
+                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+                key={i}
+              >
+                <a className="text-center" href={val.link}>
+                  <div className="service service__style--2">
+                    <div className="icon">{val.icon}</div>
+                    <div className="content">
+                      <h3 className="title">{val.title}</h3>
+                      <p>{val.description}</p>
                     </div>
-                  </a>
-                </div>
-              ))}
-            </div>
+                  </div>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
-      </Fragment>
-    );
-  }
+      </div>
+    </Fragment>
+  );
 }
-
-export default App;

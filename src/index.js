@@ -35,7 +35,6 @@ import Hem from "./home/Hem";
 import AnpassadeAppar from "./elements/blog/AnpassadeAppar";
 import Appar from "./elements/tjanster/Appar";
 import Blogg from "./elements/Blogg";
-import BlogDetails from "./elements/BlogDetails";
 import Design from "./elements/tjanster/Design";
 import Drift from "./elements/tjanster/Drift";
 import error404 from "./elements/error404";
@@ -47,7 +46,6 @@ import OmOss from "./elements/OmOss";
 import Plugins from "./elements/tjanster/Plugins";
 import Projektledning from "./elements/tjanster/Projektledning";
 import Seo from "./elements/tjanster/Seo";
-import ServiceDetails from "./elements/ServiceDetails";
 import Tjanster from "./elements/Tjanster";
 import Webbutveckling from "./elements/tjanster/Webbutveckling";
 import Wordpress from "./elements/tjanster/Wordpress";
@@ -59,7 +57,6 @@ import Brand from "./blocks/Brand";
 import Columns from "./blocks/Columns";
 import ContactForm from "./blocks/ContactForm";
 import Counters from "./blocks/Counters";
-import Gallery from "./blocks/Gallery";
 import GoogleMap from "./blocks/GoogleMap";
 import ProgressBar from "./blocks/ProgressBar";
 import Team from "./blocks/Team";
@@ -173,7 +170,6 @@ export default function Root() {
     */}
           {/* Element Layot */}
           <Route exact path={`/tjanster`} component={Tjanster} />
-          <Route exact path={`/service-details`} component={ServiceDetails} />
           {/* Tjänster*/}
           <Route exact path={`/appar`} component={Appar} />
           <Route exact path={`/design`} component={Design} />
@@ -194,7 +190,6 @@ export default function Root() {
               component={PortfolioDetails}
   />*/}
           <Route exact path={`/blogg`} component={Blogg} />
-          <Route exact path={`/blog-details`} component={BlogDetails} />
           {/***************************** BLOGGINLÄGG ******************************************/}
           <Route
             exact
@@ -217,7 +212,6 @@ export default function Root() {
           <Route exact path={`/counters`} component={Counters} />
           <Route exact path={`/testimonial`} component={Testimonial} />
           <Route exact path={`/video-popup`} component={VideoPopup} />
-          <Route exact path={`/gallery`} component={Gallery} />
           <Route exact path={`/clint-logo`} component={Brand} />
           <Route exact path={`/progressbar`} component={ProgressBar} />
           <Route exact path={`/contact-form`} component={ContactForm} />

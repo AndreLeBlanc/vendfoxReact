@@ -18,7 +18,7 @@ export default function Tjanster() {
       />
 
       {/* Start Breadcrump Area */}
-      <Breadcrumb title={"Tjänster"} />
+      <Breadcrumb title="Tjänster" />
       {/* End Breadcrump Area */}
 
       {/* Start Service Area */}

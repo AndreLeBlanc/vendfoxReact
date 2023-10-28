@@ -5,7 +5,6 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import CounterOne from "../elements/counters/CounterOne";
-import CounterTwo from "../elements/counters/CounterTwo";
 
 import Footer from "../component/footer/Footer";
 

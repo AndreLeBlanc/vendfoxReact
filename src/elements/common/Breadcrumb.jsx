@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Breadcrumb() {
-  const { title, parent } = this.props;
+export default function Breadcrumb(props) {
+  const { title, parent } = props;
   return (
     <React.Fragment>
       <div
@@ -16,7 +16,7 @@ export default function Breadcrumb() {
                 <h1 className="title">{title}</h1>
                 <ul className="page-list">
                   <li className="breadcrumb-item">
-                    <Link to={`${process.env.PUBLIC_URL}`}>Hem</Link>
+                    <Link to={"/"}>Hem</Link>
                   </li>
                   {parent ? <li className="breadcrumb-item">{parent}</li> : ""}
                   <li className="breadcrumb-item active">{title}</li>
